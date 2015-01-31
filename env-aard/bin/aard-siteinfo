@@ -1,0 +1,10 @@
+#!/media/kalike/ITfC/Packages/aard/env-aard/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'aardtools==0.9.0','console_scripts','aard-siteinfo'
+__requires__ = 'aardtools==0.9.0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('aardtools==0.9.0', 'console_scripts', 'aard-siteinfo')()
+    )

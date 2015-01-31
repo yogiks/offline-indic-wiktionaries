@@ -1,0 +1,95 @@
+body {
+    font-family: $font_family;
+    font-size: $font_size;
+    font-weight: $font_weight;
+    font-style: $font_style;
+}
+
+a {
+    color: $internal_link_fg;
+}
+
+a:active {
+    background-color: $active_link_bg;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active[href ^="http://"],
+a:active[href ^="https://"] {
+    background-color: $active_link_bg;
+}
+
+a[href ^="sftp://"],
+a[href ^="ftp://"],
+a[href ^="http://"],
+a[href ^="https://"] {
+    color: $external_link_fg;
+}
+
+a[id ^="_r"] {
+    color: $footnote_fg;
+}
+
+a[href ^="#_r"] {
+    color: $footnote_backref_fg;
+}
+
+table {
+    background-color: $table_bg;
+}
+
+/* emulate center */
+.center {
+	width: 100%;
+	text-align: center;
+}
+*.center * {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.o {
+    text-decoration: overline;
+}
+
+span .tr {
+     font-weight: bold;
+     color: darkred;
+}
+
+span .co {
+     font-size: small;
+     color: slategray;
+}
+
+span .ex {
+     font-family: "Times New Roman",serif;
+     font-style: italic;
+     color: darkblue;
+}
+
+span .abr {
+     font-family: monospace;
+     font-weight: bold;
+     color: darkred;
+}
+
+span .pos {
+     font-family: "Times New Roman",serif;
+     font-weight: bold;
+     font-style: italic;
+     color: darkgreen;
+}
+
+span .tense {
+     font-family: "Times New Roman",serif;
+     font-style: italic;
+     color: darkgreen;
+}

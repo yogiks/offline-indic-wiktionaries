@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Aard Dictionary
+Type=Application
+Exec=aarddict
+Icon=aarddict.png
+Terminal=false
+Categories=Utility;
+StartupNotify=false

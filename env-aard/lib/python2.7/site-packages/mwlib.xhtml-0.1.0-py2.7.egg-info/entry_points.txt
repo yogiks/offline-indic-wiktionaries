@@ -1,0 +1,3 @@
+[mwlib.writers]
+xhtml = mwlib.xhtmlwriter:xhtmlwriter
+

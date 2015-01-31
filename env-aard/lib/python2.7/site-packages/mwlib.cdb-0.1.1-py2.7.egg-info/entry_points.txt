@@ -1,0 +1,3 @@
+[console_scripts]
+mw-buildcdb = mwlib.cdb.apps:buildcdb
+

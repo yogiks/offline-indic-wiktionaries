@@ -1,0 +1,5966 @@
+{
+    "general": {
+        "articlepath": "/wiki/$1", 
+        "base": "http://kn.wiktionary.org/wiki/%E0%B2%AE%E0%B3%81%E0%B2%96%E0%B3%8D%E0%B2%AF_%E0%B2%AA%E0%B3%81%E0%B2%9F", 
+        "case": "case-sensitive", 
+        "dbtype": "mysql", 
+        "dbversion": "10.0.13-MariaDB-log", 
+        "fallback": [
+            {
+                "code": "en"
+            }
+        ], 
+        "fallback8bitEncoding": "windows-1252", 
+        "favicon": "//bits.wikimedia.org/favicon/piece.ico", 
+        "generator": "MediaWiki 1.25wmf13", 
+        "git-branch": "wmf/1.25wmf13", 
+        "git-hash": "fe953de01be9ca0d75516913aa89e70c7b0fced6", 
+        "hhvmversion": "3.3.1", 
+        "imagelimits": [
+            {
+                "height": 240, 
+                "width": 320
+            }, 
+            {
+                "height": 480, 
+                "width": 640
+            }, 
+            {
+                "height": 600, 
+                "width": 800
+            }, 
+            {
+                "height": 768, 
+                "width": 1024
+            }, 
+            {
+                "height": 1024, 
+                "width": 1280
+            }
+        ], 
+        "imagewhitelistenabled": "", 
+        "lang": "kn", 
+        "langconversion": "", 
+        "legaltitlechars": " %!\"$&'()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+", 
+        "linkprefix": "", 
+        "linkprefixcharset": "", 
+        "linktrail": "/^([a-z]+)(.*)$/sD", 
+        "logo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wiktionary-logo-kn.svg/135px-Wiktionary-logo-kn.svg.png", 
+        "mainpage": "\u0cae\u0cc1\u0c96\u0ccd\u0caf \u0caa\u0cc1\u0c9f", 
+        "maxuploadsize": 1048576000, 
+        "misermode": "", 
+        "phpsapi": "srv", 
+        "phpversion": "5.6.99-hhvm", 
+        "script": "/w/index.php", 
+        "scriptpath": "/w", 
+        "server": "//kn.wiktionary.org", 
+        "servername": "kn.wiktionary.org", 
+        "sitename": "\u0cb5\u0cbf\u0c95\u0ccd\u0cb7\u0ca8\u0cb0\u0cbf", 
+        "thumblimits": [
+            120, 
+            150, 
+            180, 
+            200, 
+            220, 
+            250, 
+            300
+        ], 
+        "time": "2015-01-12T11:17:00Z", 
+        "timeoffset": 0, 
+        "timezone": "UTC", 
+        "titleconversion": "", 
+        "variantarticlepath": false, 
+        "wikiid": "knwiktionary", 
+        "writeapi": ""
+    }, 
+    "interwikimap": [
+        {
+            "language": "Qaf\u00e1r af", 
+            "local": "", 
+            "prefix": "aa", 
+            "protorel": "", 
+            "url": "http://aa.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0410\u04a7\u0441\u0448\u04d9\u0430", 
+            "local": "", 
+            "prefix": "ab", 
+            "protorel": "", 
+            "url": "http://ab.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "abbenormal", 
+            "url": "http://johnabbe.wagn.org/$1"
+        }, 
+        {
+            "language": "Ac\u00e8h", 
+            "local": "", 
+            "prefix": "ace", 
+            "protorel": "", 
+            "url": "http://ace.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "acronym", 
+            "url": "http://www.acronymfinder.com/af-query.asp?String=exact&Acronym=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "advisory", 
+            "protorel": "", 
+            "url": "http://advisory.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "advogato", 
+            "url": "http://www.advogato.org/$1"
+        }, 
+        {
+            "prefix": "aew", 
+            "url": "http://wiki.arabeyes.org/$1"
+        }, 
+        {
+            "language": "Afrikaans", 
+            "local": "", 
+            "prefix": "af", 
+            "protorel": "", 
+            "url": "http://af.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Akan", 
+            "local": "", 
+            "prefix": "ak", 
+            "protorel": "", 
+            "url": "http://ak.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Alemannisch", 
+            "local": "", 
+            "prefix": "als", 
+            "protorel": "", 
+            "url": "http://als.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u12a0\u121b\u122d\u129b", 
+            "local": "", 
+            "prefix": "am", 
+            "protorel": "", 
+            "url": "http://am.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "aragon\u00e9s", 
+            "local": "", 
+            "prefix": "an", 
+            "protorel": "", 
+            "url": "http://an.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u00c6nglisc", 
+            "local": "", 
+            "prefix": "ang", 
+            "protorel": "", 
+            "url": "http://ang.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "appropedia", 
+            "url": "http://www.appropedia.org/$1"
+        }, 
+        {
+            "prefix": "aquariumwiki", 
+            "url": "http://www.theaquariumwiki.com/$1"
+        }, 
+        {
+            "language": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629", 
+            "local": "", 
+            "prefix": "ar", 
+            "protorel": "", 
+            "url": "http://ar.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "arborwiki", 
+            "url": "http://arborwiki.org/city/$1"
+        }, 
+        {
+            "language": "\u0710\u072a\u0721\u071d\u0710", 
+            "local": "", 
+            "prefix": "arc", 
+            "protorel": "", 
+            "url": "http://arc.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "arxiv", 
+            "url": "http://arxiv.org/abs/$1"
+        }, 
+        {
+            "language": "\u0645\u0635\u0631\u0649", 
+            "local": "", 
+            "prefix": "arz", 
+            "protorel": "", 
+            "url": "http://arz.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0985\u09b8\u09ae\u09c0\u09af\u09bc\u09be", 
+            "local": "", 
+            "prefix": "as", 
+            "protorel": "", 
+            "url": "http://as.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "asturianu", 
+            "local": "", 
+            "prefix": "ast", 
+            "protorel": "", 
+            "url": "http://ast.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "atmwiki", 
+            "url": "http://www.otterstedt.de/wiki/index.php/$1"
+        }, 
+        {
+            "language": "\u0430\u0432\u0430\u0440", 
+            "local": "", 
+            "prefix": "av", 
+            "protorel": "", 
+            "url": "http://av.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Aymar aru", 
+            "local": "", 
+            "prefix": "ay", 
+            "protorel": "", 
+            "url": "http://ay.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "az\u0259rbaycanca", 
+            "local": "", 
+            "prefix": "az", 
+            "protorel": "", 
+            "url": "http://az.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "b", 
+            "protorel": "", 
+            "url": "http://kn.wikibooks.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0431\u0430\u0448\u04a1\u043e\u0440\u0442\u0441\u0430", 
+            "local": "", 
+            "prefix": "ba", 
+            "protorel": "", 
+            "url": "http://ba.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "baden", 
+            "url": "http://www.stadtwiki-baden-baden.de/wiki/$1/"
+        }, 
+        {
+            "language": "Boarisch", 
+            "local": "", 
+            "prefix": "bar", 
+            "protorel": "", 
+            "url": "http://bar.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u017eemait\u0117\u0161ka", 
+            "local": "", 
+            "prefix": "bat-smg", 
+            "protorel": "", 
+            "url": "http://bat-smg.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "battlestarwiki", 
+            "url": "http://en.battlestarwiki.org/wiki/$1"
+        }, 
+        {
+            "language": "Bikol Central", 
+            "local": "", 
+            "prefix": "bcl", 
+            "protorel": "", 
+            "url": "http://bcl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "bcnbio", 
+            "url": "http://historiapolitica.bcn.cl/resenas_parlamentarias/wiki/$1"
+        }, 
+        {
+            "language": "\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f", 
+            "local": "", 
+            "prefix": "be", 
+            "protorel": "", 
+            "url": "http://be.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430)\u200e", 
+            "local": "", 
+            "prefix": "be-tarask", 
+            "protorel": "", 
+            "url": "http://be-x-old.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430)\u200e", 
+            "local": "", 
+            "prefix": "be-x-old", 
+            "protorel": "", 
+            "url": "http://be-x-old.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "beacha", 
+            "url": "http://www.beachapedia.org/$1"
+        }, 
+        {
+            "prefix": "betawiki", 
+            "url": "https://translatewiki.net/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "betawikiversity", 
+            "protorel": "", 
+            "url": "http://beta.wikiversity.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0431\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438", 
+            "local": "", 
+            "prefix": "bg", 
+            "protorel": "", 
+            "url": "http://bg.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u092d\u094b\u091c\u092a\u0941\u0930\u0940", 
+            "local": "", 
+            "prefix": "bh", 
+            "protorel": "", 
+            "url": "http://bh.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Bislama", 
+            "local": "", 
+            "prefix": "bi", 
+            "protorel": "", 
+            "url": "http://bi.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "biblewiki", 
+            "url": "http://bible.tmtm.com/wiki/$1"
+        }, 
+        {
+            "language": "Bahasa Banjar", 
+            "local": "", 
+            "prefix": "bjn", 
+            "protorel": "", 
+            "url": "http://bjn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "bluwiki", 
+            "url": "http://bluwiki.com/go/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "blw", 
+            "url": "http://britainloveswikipedia.org/wiki/$1"
+        }, 
+        {
+            "language": "bamanankan", 
+            "local": "", 
+            "prefix": "bm", 
+            "protorel": "", 
+            "url": "http://bm.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u09ac\u09be\u0982\u09b2\u09be", 
+            "local": "", 
+            "prefix": "bn", 
+            "protorel": "", 
+            "url": "http://bn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0f56\u0f7c\u0f51\u0f0b\u0f61\u0f72\u0f42", 
+            "local": "", 
+            "prefix": "bo", 
+            "protorel": "", 
+            "url": "http://bo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "botwiki", 
+            "url": "http://botwiki.sno.cc/wiki/$1"
+        }, 
+        {
+            "prefix": "boxrec", 
+            "url": "http://www.boxrec.com/media/index.php?$1"
+        }, 
+        {
+            "language": "\u09ac\u09bf\u09b7\u09cd\u09a3\u09c1\u09aa\u09cd\u09b0\u09bf\u09af\u09bc\u09be \u09ae\u09a3\u09bf\u09aa\u09c1\u09b0\u09c0", 
+            "local": "", 
+            "prefix": "bpy", 
+            "protorel": "", 
+            "url": "http://bpy.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "brezhoneg", 
+            "local": "", 
+            "prefix": "br", 
+            "protorel": "", 
+            "url": "http://br.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "brickwiki", 
+            "url": "http://www.brickwiki.info/wiki/$1"
+        }, 
+        {
+            "language": "bosanski", 
+            "local": "", 
+            "prefix": "bs", 
+            "protorel": "", 
+            "url": "http://bs.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u1a05\u1a14 \u1a15\u1a18\u1a01\u1a17", 
+            "local": "", 
+            "prefix": "bug", 
+            "protorel": "", 
+            "url": "http://bug.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "bugzilla", 
+            "url": "https://bugzilla.wikimedia.org/show_bug.cgi?id=$1"
+        }, 
+        {
+            "prefix": "bulba", 
+            "url": "http://bulbapedia.bulbagarden.net/wiki/$1"
+        }, 
+        {
+            "prefix": "buzztard", 
+            "url": "http://buzztard.org/index.php/$1"
+        }, 
+        {
+            "language": "\u0431\u0443\u0440\u044f\u0430\u0434", 
+            "local": "", 
+            "prefix": "bxr", 
+            "protorel": "", 
+            "url": "http://bxr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "bytesmiths", 
+            "url": "http://www.Bytesmiths.com/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "c", 
+            "protorel": "", 
+            "url": "http://commons.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "c2", 
+            "url": "http://c2.com/cgi/wiki?$1"
+        }, 
+        {
+            "prefix": "c2find", 
+            "url": "http://c2.com/cgi/wiki?FindPage&value=$1"
+        }, 
+        {
+            "language": "catal\u00e0", 
+            "local": "", 
+            "prefix": "ca", 
+            "protorel": "", 
+            "url": "http://ca.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "cache", 
+            "protorel": "", 
+            "url": "http://www.google.com/search?q=cache:$1"
+        }, 
+        {
+            "language": "Chavacano de Zamboanga", 
+            "local": "", 
+            "prefix": "cbk-zam", 
+            "protorel": "", 
+            "url": "http://cbk-zam.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "M\u00ecng-d\u0115\u0324ng-ng\u1e73\u0304", 
+            "local": "", 
+            "prefix": "cdo", 
+            "protorel": "", 
+            "url": "http://cdo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u043d\u043e\u0445\u0447\u0438\u0439\u043d", 
+            "local": "", 
+            "prefix": "ce", 
+            "protorel": "", 
+            "url": "http://ce.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Cebuano", 
+            "local": "", 
+            "prefix": "ceb", 
+            "protorel": "", 
+            "url": "http://ceb.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "cellwiki", 
+            "url": "http://cell.wikia.com/wiki/$1"
+        }, 
+        {
+            "prefix": "centralwikia", 
+            "url": "http://community.wikia.com/wiki/$1"
+        }, 
+        {
+            "language": "Chamoru", 
+            "local": "", 
+            "prefix": "ch", 
+            "protorel": "", 
+            "url": "http://ch.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "chapter", 
+            "protorel": "", 
+            "url": "http://kn.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "chej", 
+            "url": "http://esperanto.blahus.cz/cxej/vikio/index.php/$1"
+        }, 
+        {
+            "language": "Choctaw", 
+            "local": "", 
+            "prefix": "cho", 
+            "protorel": "", 
+            "url": "http://cho.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "choralwiki", 
+            "url": "http://www.cpdl.org/wiki/index.php/$1"
+        }, 
+        {
+            "language": "\u13e3\u13b3\u13a9", 
+            "local": "", 
+            "prefix": "chr", 
+            "protorel": "", 
+            "url": "http://chr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Tsets\u00eahest\u00e2hese", 
+            "local": "", 
+            "prefix": "chy", 
+            "protorel": "", 
+            "url": "http://chy.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "citizendium", 
+            "url": "http://en.citizendium.org/wiki/$1"
+        }, 
+        {
+            "language": "\u06a9\u0648\u0631\u062f\u06cc", 
+            "local": "", 
+            "prefix": "ckb", 
+            "protorel": "", 
+            "url": "http://ckb.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "ckwiss", 
+            "url": "http://www.ck-wissen.de/ckwiki/index.php?title=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "cmn", 
+            "protorel": "", 
+            "url": "http://zh.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "corsu", 
+            "local": "", 
+            "prefix": "co", 
+            "protorel": "", 
+            "url": "http://co.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "comixpedia", 
+            "url": "http://www.comixpedia.org/index.php?title=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "commons", 
+            "protorel": "", 
+            "url": "http://commons.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "communityscheme", 
+            "url": "http://community.schemewiki.org/?c=s&key=$1"
+        }, 
+        {
+            "prefix": "communitywiki", 
+            "url": "http://www.communitywiki.org/$1"
+        }, 
+        {
+            "prefix": "comune", 
+            "url": "http://rete.comuni-italiani.it/wiki/$1"
+        }, 
+        {
+            "prefix": "corpknowpedia", 
+            "url": "http://corpknowpedia.org/wiki/index.php/$1"
+        }, 
+        {
+            "language": "N\u0113hiyaw\u0113win / \u14c0\u1426\u1403\u152d\u140d\u140f\u1423", 
+            "local": "", 
+            "prefix": "cr", 
+            "protorel": "", 
+            "url": "http://cr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "crazyhacks", 
+            "url": "http://www.crazy-hacks.org/wiki/index.php?title=$1"
+        }, 
+        {
+            "prefix": "creativecommons", 
+            "protorel": "", 
+            "url": "http://creativecommons.org/licenses/$1"
+        }, 
+        {
+            "prefix": "creativecommonswiki", 
+            "url": "http://wiki.creativecommons.org/$1"
+        }, 
+        {
+            "prefix": "creatureswiki", 
+            "url": "http://creatures.wikia.com/wiki/$1"
+        }, 
+        {
+            "language": "q\u0131r\u0131mtatarca", 
+            "local": "", 
+            "prefix": "crh", 
+            "protorel": "", 
+            "url": "http://crh.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u010de\u0161tina", 
+            "local": "", 
+            "prefix": "cs", 
+            "protorel": "", 
+            "url": "http://cs.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "kasz\u00ebbsczi", 
+            "local": "", 
+            "prefix": "csb", 
+            "protorel": "", 
+            "url": "http://csb.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0441\u043b\u043e\u0432\u0463\u043d\u044c\u0441\u043a\u044a / \u2c14\u2c0e\u2c11\u2c02\u2c21\u2c10\u2c20\u2c14\u2c0d\u2c1f", 
+            "local": "", 
+            "prefix": "cu", 
+            "protorel": "", 
+            "url": "http://cu.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0427\u04d1\u0432\u0430\u0448\u043b\u0430", 
+            "local": "", 
+            "prefix": "cv", 
+            "protorel": "", 
+            "url": "http://cv.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "cxej", 
+            "url": "http://esperanto.blahus.cz/cxej/vikio/index.php/$1"
+        }, 
+        {
+            "language": "Cymraeg", 
+            "local": "", 
+            "prefix": "cy", 
+            "protorel": "", 
+            "url": "http://cy.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "cz", 
+            "protorel": "", 
+            "url": "http://cz.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "d", 
+            "protorel": "", 
+            "url": "http://www.wikidata.org/wiki/$1"
+        }, 
+        {
+            "language": "dansk", 
+            "local": "", 
+            "prefix": "da", 
+            "protorel": "", 
+            "url": "http://da.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "dbdump", 
+            "url": "http://download.wikimedia.org/$1/latest/"
+        }, 
+        {
+            "prefix": "dcc", 
+            "url": "http://www.dccwiki.com/$1"
+        }, 
+        {
+            "prefix": "dcdatabase", 
+            "url": "http://dc.wikia.com/$1"
+        }, 
+        {
+            "prefix": "dcma", 
+            "url": "http://christian-morgenstern.de/dcma/index.php?title=$1"
+        }, 
+        {
+            "language": "Deutsch", 
+            "local": "", 
+            "prefix": "de", 
+            "protorel": "", 
+            "url": "http://de.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "delicious", 
+            "protorel": "", 
+            "url": "http://www.delicious.com/tag/$1"
+        }, 
+        {
+            "prefix": "devmo", 
+            "url": "https://developer.mozilla.org/en/docs/$1"
+        }, 
+        {
+            "prefix": "dict", 
+            "url": "http://www.dict.org/bin/Dict?Database=*&Form=Dict1&Strategy=*&Query=$1"
+        }, 
+        {
+            "prefix": "dictionary", 
+            "url": "http://www.dict.org/bin/Dict?Database=*&Form=Dict1&Strategy=*&Query=$1"
+        }, 
+        {
+            "language": "Zazaki", 
+            "local": "", 
+            "prefix": "diq", 
+            "protorel": "", 
+            "url": "http://diq.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "disinfopedia", 
+            "url": "http://www.sourcewatch.org/wiki.phtml?title=$1"
+        }, 
+        {
+            "prefix": "distributedproofreaders", 
+            "url": "http://www.pgdp.net/wiki/$1"
+        }, 
+        {
+            "prefix": "distributedproofreadersca", 
+            "url": "http://www.pgdpcanada.net/wiki/index.php/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "dk", 
+            "protorel": "", 
+            "url": "http://dk.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "dmoz", 
+            "url": "http://www.dmoz.org/$1"
+        }, 
+        {
+            "prefix": "dmozs", 
+            "url": "http://www.dmoz.org/cgi-bin/search?search=$1"
+        }, 
+        {
+            "prefix": "docbook", 
+            "url": "http://wiki.docbook.org/topic/$1"
+        }, 
+        {
+            "prefix": "doi", 
+            "url": "http://dx.doi.org/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "donate", 
+            "protorel": "", 
+            "url": "http://donate.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "doom_wiki", 
+            "url": "http://doom.wikia.com/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "download", 
+            "url": "http://releases.wikimedia.org/$1"
+        }, 
+        {
+            "prefix": "dpd", 
+            "url": "http://lema.rae.es/dpd/?key=$1"
+        }, 
+        {
+            "prefix": "drae", 
+            "url": "http://lema.rae.es/drae/?val=$1"
+        }, 
+        {
+            "prefix": "dreamhost", 
+            "url": "http://wiki.dreamhost.com/index.php/$1"
+        }, 
+        {
+            "prefix": "drumcorpswiki", 
+            "url": "http://www.drumcorpswiki.com/index.php/$1"
+        }, 
+        {
+            "language": "dolnoserbski", 
+            "local": "", 
+            "prefix": "dsb", 
+            "protorel": "", 
+            "url": "http://dsb.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u078b\u07a8\u0788\u07ac\u0780\u07a8\u0784\u07a6\u0790\u07b0", 
+            "local": "", 
+            "prefix": "dv", 
+            "protorel": "", 
+            "url": "http://dv.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "dwjwiki", 
+            "url": "http://www.suberic.net/cgi-bin/dwj/wiki.cgi?$1"
+        }, 
+        {
+            "language": "\u0f47\u0f7c\u0f44\u0f0b\u0f41", 
+            "local": "", 
+            "prefix": "dz", 
+            "protorel": "", 
+            "url": "http://dz.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "ecoreality", 
+            "url": "http://www.EcoReality.org/wiki/$1"
+        }, 
+        {
+            "prefix": "ecxei", 
+            "url": "http://www.ikso.net/cgi-bin/wiki.pl?$1"
+        }, 
+        {
+            "language": "e\u028begbe", 
+            "local": "", 
+            "prefix": "ee", 
+            "protorel": "", 
+            "url": "http://ee.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Emili\u00e0n", 
+            "local": "", 
+            "prefix": "egl", 
+            "protorel": "", 
+            "url": "http://eml.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac", 
+            "local": "", 
+            "prefix": "el", 
+            "protorel": "", 
+            "url": "http://el.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "elibre", 
+            "url": "http://enciclopedia.us.es/index.php/$1"
+        }, 
+        {
+            "prefix": "emacswiki", 
+            "url": "http://www.emacswiki.org/cgi-bin/wiki.pl?$1"
+        }, 
+        {
+            "language": "emili\u00e0n e rumagn\u00f2l", 
+            "local": "", 
+            "prefix": "eml", 
+            "protorel": "", 
+            "url": "http://eml.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "English", 
+            "local": "", 
+            "prefix": "en", 
+            "protorel": "", 
+            "url": "http://en.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "encyc", 
+            "url": "http://encyc.org/wiki/$1"
+        }, 
+        {
+            "prefix": "energiewiki", 
+            "url": "http://www.netzwerk-energieberater.de/wiki/index.php/$1"
+        }, 
+        {
+            "prefix": "englyphwiki", 
+            "url": "http://en.glyphwiki.org/wiki/$1"
+        }, 
+        {
+            "prefix": "enkol", 
+            "url": "http://enkol.pl/$1"
+        }, 
+        {
+            "language": "Esperanto", 
+            "local": "", 
+            "prefix": "eo", 
+            "protorel": "", 
+            "url": "http://eo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "eokulturcentro", 
+            "url": "http://esperanto.toulouse.free.fr/nova/wikini/wakka.php?wiki=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "epo", 
+            "protorel": "", 
+            "url": "http://epo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "espa\u00f1ol", 
+            "local": "", 
+            "prefix": "es", 
+            "protorel": "", 
+            "url": "http://es.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "esolang", 
+            "url": "http://esolangs.org/wiki/$1"
+        }, 
+        {
+            "language": "eesti", 
+            "local": "", 
+            "prefix": "et", 
+            "protorel": "", 
+            "url": "http://et.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "etherpad", 
+            "protorel": "", 
+            "url": "http://etherpad.wikimedia.org/$1"
+        }, 
+        {
+            "prefix": "ethnologue", 
+            "protorel": "", 
+            "url": "http://www.ethnologue.com/language/$1"
+        }, 
+        {
+            "prefix": "ethnologuefamily", 
+            "protorel": "", 
+            "url": "http://www.ethnologue.com/show_family.asp?subid=$1"
+        }, 
+        {
+            "language": "euskara", 
+            "local": "", 
+            "prefix": "eu", 
+            "protorel": "", 
+            "url": "http://eu.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "evowiki", 
+            "url": "http://wiki.cotch.net/index.php/$1"
+        }, 
+        {
+            "prefix": "exotica", 
+            "url": "http://www.exotica.org.uk/wiki/$1"
+        }, 
+        {
+            "language": "estreme\u00f1u", 
+            "local": "", 
+            "prefix": "ext", 
+            "protorel": "", 
+            "url": "http://ext.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "e\u0109ei", 
+            "url": "http://www.ikso.net/cgi-bin/wiki.pl?$1"
+        }, 
+        {
+            "language": "\u0641\u0627\u0631\u0633\u06cc", 
+            "local": "", 
+            "prefix": "fa", 
+            "protorel": "", 
+            "url": "http://fa.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "fanimutationwiki", 
+            "url": "http://wiki.animutationportal.com/index.php/$1"
+        }, 
+        {
+            "language": "Fulfulde", 
+            "local": "", 
+            "prefix": "ff", 
+            "protorel": "", 
+            "url": "http://ff.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "suomi", 
+            "local": "", 
+            "prefix": "fi", 
+            "protorel": "", 
+            "url": "http://fi.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "finalempire", 
+            "url": "http://final-empire.sourceforge.net/cgi-bin/wiki.pl?$1"
+        }, 
+        {
+            "prefix": "finalfantasy", 
+            "url": "http://finalfantasy.wikia.com/wiki/$1"
+        }, 
+        {
+            "prefix": "finnix", 
+            "url": "http://www.finnix.org/$1"
+        }, 
+        {
+            "language": "V\u00f5ro", 
+            "local": "", 
+            "prefix": "fiu-vro", 
+            "protorel": "", 
+            "url": "http://fiu-vro.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Na Vosa Vakaviti", 
+            "local": "", 
+            "prefix": "fj", 
+            "protorel": "", 
+            "url": "http://fj.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "flickrphoto", 
+            "protorel": "", 
+            "url": "http://www.flickr.com/photo.gne?id=$1"
+        }, 
+        {
+            "prefix": "flickruser", 
+            "protorel": "", 
+            "url": "http://www.flickr.com/people/$1"
+        }, 
+        {
+            "prefix": "floralwiki", 
+            "url": "http://www.floralwiki.co.uk/wiki/$1"
+        }, 
+        {
+            "prefix": "flyerwiki-de", 
+            "url": "http://de.flyerwiki.net/index.php/$1"
+        }, 
+        {
+            "language": "f\u00f8royskt", 
+            "local": "", 
+            "prefix": "fo", 
+            "protorel": "", 
+            "url": "http://fo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "foldoc", 
+            "url": "http://foldoc.org/$1"
+        }, 
+        {
+            "prefix": "forthfreak", 
+            "url": "http://wiki.forthfreak.net/index.cgi?$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "foundation", 
+            "protorel": "", 
+            "url": "http://wikimediafoundation.org/wiki/$1"
+        }, 
+        {
+            "prefix": "foxwiki", 
+            "url": "http://fox.wikis.com/wc.dll?Wiki~$1"
+        }, 
+        {
+            "language": "fran\u00e7ais", 
+            "local": "", 
+            "prefix": "fr", 
+            "protorel": "", 
+            "url": "http://fr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "freebio", 
+            "url": "http://freebiology.org/wiki/$1"
+        }, 
+        {
+            "prefix": "freebsdman", 
+            "url": "http://www.FreeBSD.org/cgi/man.cgi?apropos=1&query=$1"
+        }, 
+        {
+            "prefix": "freeculturewiki", 
+            "url": "http://wiki.freeculture.org/index.php/$1"
+        }, 
+        {
+            "prefix": "freedomdefined", 
+            "url": "http://freedomdefined.org/$1"
+        }, 
+        {
+            "prefix": "freefeel", 
+            "url": "http://freefeel.org/wiki/$1"
+        }, 
+        {
+            "prefix": "freekiwiki", 
+            "url": "http://wiki.freegeek.org/index.php/$1"
+        }, 
+        {
+            "prefix": "freenode", 
+            "url": "irc://irc.freenode.net/$1"
+        }, 
+        {
+            "prefix": "freesoft", 
+            "protorel": "", 
+            "url": "http://directory.fsf.org/wiki/$1"
+        }, 
+        {
+            "language": "arpetan", 
+            "local": "", 
+            "prefix": "frp", 
+            "protorel": "", 
+            "url": "http://frp.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Nordfriisk", 
+            "local": "", 
+            "prefix": "frr", 
+            "protorel": "", 
+            "url": "http://frr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "furlan", 
+            "local": "", 
+            "prefix": "fur", 
+            "protorel": "", 
+            "url": "http://fur.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Frysk", 
+            "local": "", 
+            "prefix": "fy", 
+            "protorel": "", 
+            "url": "http://fy.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Gaeilge", 
+            "local": "", 
+            "prefix": "ga", 
+            "protorel": "", 
+            "url": "http://ga.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Gagauz", 
+            "local": "", 
+            "prefix": "gag", 
+            "protorel": "", 
+            "url": "http://gag.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u8d1b\u8a9e", 
+            "local": "", 
+            "prefix": "gan", 
+            "protorel": "", 
+            "url": "http://gan.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "ganfyd", 
+            "url": "http://ganfyd.org/index.php?title=$1"
+        }, 
+        {
+            "prefix": "gardenology", 
+            "url": "http://www.gardenology.org/wiki/$1"
+        }, 
+        {
+            "prefix": "gausswiki", 
+            "url": "http://gauss.ffii.org/$1"
+        }, 
+        {
+            "language": "G\u00e0idhlig", 
+            "local": "", 
+            "prefix": "gd", 
+            "protorel": "", 
+            "url": "http://gd.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "gentoo", 
+            "protorel": "", 
+            "url": "http://wiki.gentoo.org/wiki/$1"
+        }, 
+        {
+            "prefix": "genwiki", 
+            "url": "http://wiki.genealogy.net/index.php/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "gerrit", 
+            "url": "https://gerrit.wikimedia.org/r/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "git", 
+            "url": "https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/$1;a=log;h=refs/heads/master"
+        }, 
+        {
+            "language": "galego", 
+            "local": "", 
+            "prefix": "gl", 
+            "protorel": "", 
+            "url": "http://gl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u06af\u06cc\u0644\u06a9\u06cc", 
+            "local": "", 
+            "prefix": "glk", 
+            "protorel": "", 
+            "url": "http://glk.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "globalvoices", 
+            "url": "http://cyber.law.harvard.edu/dyn/globalvoices/wiki/$1"
+        }, 
+        {
+            "prefix": "glossarwiki", 
+            "url": "http://glossar.hs-augsburg.de/$1"
+        }, 
+        {
+            "prefix": "glossarywiki", 
+            "url": "http://glossary.hs-augsburg.de/$1"
+        }, 
+        {
+            "language": "Ava\u00f1e'\u1ebd", 
+            "local": "", 
+            "prefix": "gn", 
+            "protorel": "", 
+            "url": "http://gn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "google", 
+            "protorel": "", 
+            "url": "http://www.google.com/search?q=$1"
+        }, 
+        {
+            "prefix": "googledefine", 
+            "protorel": "", 
+            "url": "http://www.google.com/search?q=define:$1"
+        }, 
+        {
+            "prefix": "googlegroups", 
+            "protorel": "", 
+            "url": "http://groups.google.com/groups?q=$1"
+        }, 
+        {
+            "language": "\ud800\udf32\ud800\udf3f\ud800\udf44\ud800\udf39\ud800\udf43\ud800\udf3a", 
+            "local": "", 
+            "prefix": "got", 
+            "protorel": "", 
+            "url": "http://got.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "gotamac", 
+            "url": "http://www.got-a-mac.org/$1"
+        }, 
+        {
+            "prefix": "greatlakeswiki", 
+            "url": "http://greatlakeswiki.org/index.php/$1"
+        }, 
+        {
+            "language": "Alemannisch", 
+            "local": "", 
+            "prefix": "gsw", 
+            "protorel": "", 
+            "url": "http://als.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0", 
+            "local": "", 
+            "prefix": "gu", 
+            "protorel": "", 
+            "url": "http://gu.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "guildwarswiki", 
+            "url": "http://wiki.guildwars.com/wiki/$1"
+        }, 
+        {
+            "prefix": "guildwiki", 
+            "url": "http://guildwars.wikia.com/wiki/$1"
+        }, 
+        {
+            "prefix": "gutenberg", 
+            "url": "http://www.gutenberg.org/etext/$1"
+        }, 
+        {
+            "prefix": "gutenbergwiki", 
+            "url": "http://www.gutenberg.org/wiki/$1"
+        }, 
+        {
+            "language": "Gaelg", 
+            "local": "", 
+            "prefix": "gv", 
+            "protorel": "", 
+            "url": "http://gv.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "h2wiki", 
+            "url": "http://halowiki.net/p/$1"
+        }, 
+        {
+            "language": "Hausa", 
+            "local": "", 
+            "prefix": "ha", 
+            "protorel": "", 
+            "url": "http://ha.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "hackerspaces", 
+            "url": "http://hackerspaces.org/wiki/$1"
+        }, 
+        {
+            "language": "\u5ba2\u5bb6\u8a9e/Hak-k\u00e2-ng\u00ee", 
+            "local": "", 
+            "prefix": "hak", 
+            "protorel": "", 
+            "url": "http://hak.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "hammondwiki", 
+            "url": "http://www.dairiki.org/HammondWiki/index.php3?$1"
+        }, 
+        {
+            "language": "Hawai`i", 
+            "local": "", 
+            "prefix": "haw", 
+            "protorel": "", 
+            "url": "http://haw.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u05e2\u05d1\u05e8\u05d9\u05ea", 
+            "local": "", 
+            "prefix": "he", 
+            "protorel": "", 
+            "url": "http://he.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "heroeswiki", 
+            "url": "http://heroeswiki.com/$1"
+        }, 
+        {
+            "language": "\u0939\u093f\u0928\u094d\u0926\u0940", 
+            "local": "", 
+            "prefix": "hi", 
+            "protorel": "", 
+            "url": "http://hi.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Fiji Hindi", 
+            "local": "", 
+            "prefix": "hif", 
+            "protorel": "", 
+            "url": "http://hif.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Hiri Motu", 
+            "local": "", 
+            "prefix": "ho", 
+            "protorel": "", 
+            "url": "http://ho.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "hrvatski", 
+            "local": "", 
+            "prefix": "hr", 
+            "protorel": "", 
+            "url": "http://hr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "hrfwiki", 
+            "url": "http://fanstuff.hrwiki.org/index.php/$1"
+        }, 
+        {
+            "prefix": "hrwiki", 
+            "url": "http://www.hrwiki.org/index.php/$1"
+        }, 
+        {
+            "language": "hornjoserbsce", 
+            "local": "", 
+            "prefix": "hsb", 
+            "protorel": "", 
+            "url": "http://hsb.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Krey\u00f2l ayisyen", 
+            "local": "", 
+            "prefix": "ht", 
+            "protorel": "", 
+            "url": "http://ht.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "magyar", 
+            "local": "", 
+            "prefix": "hu", 
+            "protorel": "", 
+            "url": "http://hu.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "hupwiki", 
+            "url": "http://wiki.hup.hu/index.php/$1"
+        }, 
+        {
+            "language": "\u0540\u0561\u0575\u0565\u0580\u0565\u0576", 
+            "local": "", 
+            "prefix": "hy", 
+            "protorel": "", 
+            "url": "http://hy.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Otsiherero", 
+            "local": "", 
+            "prefix": "hz", 
+            "protorel": "", 
+            "url": "http://hz.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "interlingua", 
+            "local": "", 
+            "prefix": "ia", 
+            "protorel": "", 
+            "url": "http://ia.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "iarchive", 
+            "protorel": "", 
+            "url": "http://archive.org/details/$1"
+        }, 
+        {
+            "language": "Bahasa Indonesia", 
+            "local": "", 
+            "prefix": "id", 
+            "protorel": "", 
+            "url": "http://id.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Interlingue", 
+            "local": "", 
+            "prefix": "ie", 
+            "protorel": "", 
+            "url": "http://ie.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Igbo", 
+            "local": "", 
+            "prefix": "ig", 
+            "protorel": "", 
+            "url": "http://ig.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\ua187\ua259", 
+            "local": "", 
+            "prefix": "ii", 
+            "protorel": "", 
+            "url": "http://ii.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "I\u00f1upiak", 
+            "local": "", 
+            "prefix": "ik", 
+            "protorel": "", 
+            "url": "http://ik.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Ilokano", 
+            "local": "", 
+            "prefix": "ilo", 
+            "protorel": "", 
+            "url": "http://ilo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "imdbcharacter", 
+            "url": "http://www.imdb.com/character/ch$1/"
+        }, 
+        {
+            "prefix": "imdbcompany", 
+            "url": "http://www.imdb.com/company/co$1/"
+        }, 
+        {
+            "prefix": "imdbname", 
+            "url": "http://www.imdb.com/name/nm$1/"
+        }, 
+        {
+            "prefix": "imdbtitle", 
+            "url": "http://www.imdb.com/title/tt$1/"
+        }, 
+        {
+            "local": "", 
+            "prefix": "incubator", 
+            "protorel": "", 
+            "url": "http://incubator.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "infosecpedia", 
+            "url": "http://infosecpedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "infosphere", 
+            "url": "http://theinfosphere.org/$1"
+        }, 
+        {
+            "language": "Ido", 
+            "local": "", 
+            "prefix": "io", 
+            "protorel": "", 
+            "url": "http://io.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "irc", 
+            "url": "irc://irc.freenode.net/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "ircrc", 
+            "url": "irc://irc.wikimedia.org/$1"
+        }, 
+        {
+            "language": "\u00edslenska", 
+            "local": "", 
+            "prefix": "is", 
+            "protorel": "", 
+            "url": "http://is.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "iso639-3", 
+            "url": "http://www.sil.org/iso639-3/documentation.asp?id=$1"
+        }, 
+        {
+            "prefix": "issn", 
+            "url": "http://www.worldcat.org/issn/$1"
+        }, 
+        {
+            "language": "italiano", 
+            "local": "", 
+            "prefix": "it", 
+            "protorel": "", 
+            "url": "http://it.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u1403\u14c4\u1483\u144e\u1450\u1466/inuktitut", 
+            "local": "", 
+            "prefix": "iu", 
+            "protorel": "", 
+            "url": "http://iu.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "iuridictum", 
+            "url": "http://iuridictum.pecina.cz/w/$1"
+        }, 
+        {
+            "language": "\u65e5\u672c\u8a9e", 
+            "local": "", 
+            "prefix": "ja", 
+            "protorel": "", 
+            "url": "http://ja.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "jaglyphwiki", 
+            "url": "http://glyphwiki.org/wiki/$1"
+        }, 
+        {
+            "prefix": "jameshoward", 
+            "url": "http://jameshoward.us/$1"
+        }, 
+        {
+            "prefix": "javanet", 
+            "url": "http://wiki.java.net/bin/view/Main/$1"
+        }, 
+        {
+            "prefix": "javapedia", 
+            "url": "http://wiki.java.net/bin/view/Javapedia/$1"
+        }, 
+        {
+            "language": "Lojban", 
+            "local": "", 
+            "prefix": "jbo", 
+            "protorel": "", 
+            "url": "http://jbo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "jefo", 
+            "url": "http://esperanto-jeunes.org/wiki/$1"
+        }, 
+        {
+            "prefix": "jerseydatabase", 
+            "url": "http://jerseydatabase.com/wiki.php?id=$1"
+        }, 
+        {
+            "prefix": "jiniwiki", 
+            "url": "http://www.cdegroot.com/cgi-bin/jini?$1"
+        }, 
+        {
+            "prefix": "jira", 
+            "url": "https://jira.toolserver.org/browse/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "jp", 
+            "protorel": "", 
+            "url": "http://jp.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "jspwiki", 
+            "url": "http://www.ecyrd.com/JSPWiki/Wiki.jsp?page=$1"
+        }, 
+        {
+            "prefix": "jstor", 
+            "url": "http://www.jstor.org/journals/$1"
+        }, 
+        {
+            "language": "Basa Jawa", 
+            "local": "", 
+            "prefix": "jv", 
+            "protorel": "", 
+            "url": "http://jv.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8", 
+            "local": "", 
+            "prefix": "ka", 
+            "protorel": "", 
+            "url": "http://ka.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Qaraqalpaqsha", 
+            "local": "", 
+            "prefix": "kaa", 
+            "protorel": "", 
+            "url": "http://kaa.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Taqbaylit", 
+            "local": "", 
+            "prefix": "kab", 
+            "protorel": "", 
+            "url": "http://kab.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "kamelo", 
+            "url": "http://kamelopedia.mormo.org/index.php/$1"
+        }, 
+        {
+            "prefix": "karlsruhe", 
+            "url": "http://ka.stadtwiki.net/$1"
+        }, 
+        {
+            "language": "\u0410\u0434\u044b\u0433\u044d\u0431\u0437\u044d", 
+            "local": "", 
+            "prefix": "kbd", 
+            "protorel": "", 
+            "url": "http://kbd.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "kerimwiki", 
+            "url": "http://wiki.oxus.net/$1"
+        }, 
+        {
+            "language": "Kongo", 
+            "local": "", 
+            "prefix": "kg", 
+            "protorel": "", 
+            "url": "http://kg.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "G\u0129k\u0169y\u0169", 
+            "local": "", 
+            "prefix": "ki", 
+            "protorel": "", 
+            "url": "http://ki.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "kinowiki", 
+            "url": "http://kino.skripov.com/index.php/$1"
+        }, 
+        {
+            "language": "Kwanyama", 
+            "local": "", 
+            "prefix": "kj", 
+            "protorel": "", 
+            "url": "http://kj.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u049b\u0430\u0437\u0430\u049b\u0448\u0430", 
+            "local": "", 
+            "prefix": "kk", 
+            "protorel": "", 
+            "url": "http://kk.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "kalaallisut", 
+            "local": "", 
+            "prefix": "kl", 
+            "protorel": "", 
+            "url": "http://kl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u1797\u17b6\u179f\u17b6\u1781\u17d2\u1798\u17c2\u179a", 
+            "local": "", 
+            "prefix": "km", 
+            "protorel": "", 
+            "url": "http://km.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "kmwiki", 
+            "protorel": "", 
+            "url": "http://kmwiki.wikispaces.com/$1"
+        }, 
+        {
+            "language": "\u0c95\u0ca8\u0ccd\u0ca8\u0ca1", 
+            "local": "", 
+            "localinterwiki": "", 
+            "prefix": "kn", 
+            "protorel": "", 
+            "url": "http://kn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\ud55c\uad6d\uc5b4", 
+            "local": "", 
+            "prefix": "ko", 
+            "protorel": "", 
+            "url": "http://ko.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u041f\u0435\u0440\u0435\u043c \u041a\u043e\u043c\u0438", 
+            "local": "", 
+            "prefix": "koi", 
+            "protorel": "", 
+            "url": "http://koi.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "komicawiki", 
+            "url": "http://brea.komica.org/wiki/?$1"
+        }, 
+        {
+            "prefix": "kontuwiki", 
+            "url": "http://kontu.merri.net/wiki/$1"
+        }, 
+        {
+            "prefix": "koslarwiki", 
+            "url": "http://wiki.koslar.de/index.php/$1"
+        }, 
+        {
+            "prefix": "kpopwiki", 
+            "url": "http://www.kpopwiki.com/$1"
+        }, 
+        {
+            "language": "Kanuri", 
+            "local": "", 
+            "prefix": "kr", 
+            "protorel": "", 
+            "url": "http://kr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u043a\u044a\u0430\u0440\u0430\u0447\u0430\u0439-\u043c\u0430\u043b\u043a\u044a\u0430\u0440", 
+            "local": "", 
+            "prefix": "krc", 
+            "protorel": "", 
+            "url": "http://krc.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0915\u0949\u0936\u0941\u0930 / \u06a9\u0672\u0634\u064f\u0631", 
+            "local": "", 
+            "prefix": "ks", 
+            "protorel": "", 
+            "url": "http://ks.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Ripoarisch", 
+            "local": "", 
+            "prefix": "ksh", 
+            "protorel": "", 
+            "url": "http://ksh.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Kurd\u00ee", 
+            "local": "", 
+            "prefix": "ku", 
+            "protorel": "", 
+            "url": "http://ku.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u043a\u043e\u043c\u0438", 
+            "local": "", 
+            "prefix": "kv", 
+            "protorel": "", 
+            "url": "http://kv.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "kernowek", 
+            "local": "", 
+            "prefix": "kw", 
+            "protorel": "", 
+            "url": "http://kw.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u041a\u044b\u0440\u0433\u044b\u0437\u0447\u0430", 
+            "local": "", 
+            "prefix": "ky", 
+            "protorel": "", 
+            "url": "http://ky.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Latina", 
+            "local": "", 
+            "prefix": "la", 
+            "protorel": "", 
+            "url": "http://la.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "labsconsole", 
+            "url": "https://wikitech.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "language": "Ladino", 
+            "local": "", 
+            "prefix": "lad", 
+            "protorel": "", 
+            "url": "http://lad.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "L\u00ebtzebuergesch", 
+            "local": "", 
+            "prefix": "lb", 
+            "protorel": "", 
+            "url": "http://lb.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u043b\u0430\u043a\u043a\u0443", 
+            "local": "", 
+            "prefix": "lbe", 
+            "protorel": "", 
+            "url": "http://lbe.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u043b\u0435\u0437\u0433\u0438", 
+            "local": "", 
+            "prefix": "lez", 
+            "protorel": "", 
+            "url": "http://lez.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Luganda", 
+            "local": "", 
+            "prefix": "lg", 
+            "protorel": "", 
+            "url": "http://lg.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Limburgs", 
+            "local": "", 
+            "prefix": "li", 
+            "protorel": "", 
+            "url": "http://li.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "libreplanet", 
+            "protorel": "", 
+            "url": "http://libreplanet.org/wiki/$1"
+        }, 
+        {
+            "language": "Ligure", 
+            "local": "", 
+            "prefix": "lij", 
+            "protorel": "", 
+            "url": "http://lij.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "linguistlist", 
+            "protorel": "", 
+            "url": "http://linguistlist.org/forms/langs/LLDescription.cfm?code=$1"
+        }, 
+        {
+            "prefix": "linuxwiki", 
+            "url": "http://www.linuxwiki.de/$1"
+        }, 
+        {
+            "prefix": "linuxwikide", 
+            "url": "http://www.linuxwiki.de/$1"
+        }, 
+        {
+            "prefix": "liswiki", 
+            "url": "http://liswiki.org/wiki/$1"
+        }, 
+        {
+            "prefix": "literateprograms", 
+            "url": "http://en.literateprograms.org/$1"
+        }, 
+        {
+            "prefix": "livepedia", 
+            "url": "http://www.livepedia.gr/index.php?title=$1"
+        }, 
+        {
+            "language": "lumbaart", 
+            "local": "", 
+            "prefix": "lmo", 
+            "protorel": "", 
+            "url": "http://lmo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "ling\u00e1la", 
+            "local": "", 
+            "prefix": "ln", 
+            "protorel": "", 
+            "url": "http://ln.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0ea5\u0eb2\u0ea7", 
+            "local": "", 
+            "prefix": "lo", 
+            "protorel": "", 
+            "url": "http://lo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "lojban", 
+            "url": "http://www.lojban.org/tiki/tiki-index.php?page=$1"
+        }, 
+        {
+            "prefix": "lostpedia", 
+            "url": "http://lostpedia.wikia.com/wiki/$1"
+        }, 
+        {
+            "prefix": "lqwiki", 
+            "url": "http://wiki.linuxquestions.org/wiki/$1"
+        }, 
+        {
+            "language": "lietuvi\u0173", 
+            "local": "", 
+            "prefix": "lt", 
+            "protorel": "", 
+            "url": "http://lt.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "latga\u013cu", 
+            "local": "", 
+            "prefix": "ltg", 
+            "protorel": "", 
+            "url": "http://ltg.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "lugkr", 
+            "url": "http://lug-kr.sourceforge.net/cgi-bin/lugwiki.pl?$1"
+        }, 
+        {
+            "prefix": "luxo", 
+            "protorel": "", 
+            "url": "http://tools.wmflabs.org/guc/?user=$1"
+        }, 
+        {
+            "language": "latvie\u0161u", 
+            "local": "", 
+            "prefix": "lv", 
+            "protorel": "", 
+            "url": "http://lv.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u6587\u8a00", 
+            "local": "", 
+            "prefix": "lzh", 
+            "protorel": "", 
+            "url": "http://zh-classical.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "m", 
+            "protorel": "", 
+            "url": "http://meta.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "language": "\u092e\u0948\u0925\u093f\u0932\u0940", 
+            "local": "", 
+            "prefix": "mai", 
+            "protorel": "", 
+            "url": "http://mai.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "mail", 
+            "url": "https://lists.wikimedia.org/mailman/listinfo/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "mailarchive", 
+            "url": "https://lists.wikimedia.org/pipermail/$1"
+        }, 
+        {
+            "language": "Basa Banyumasan", 
+            "local": "", 
+            "prefix": "map-bms", 
+            "protorel": "", 
+            "url": "http://map-bms.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "mariowiki", 
+            "url": "http://www.mariowiki.com/$1"
+        }, 
+        {
+            "prefix": "marveldatabase", 
+            "url": "http://www.marveldatabase.com/wiki/index.php/$1"
+        }, 
+        {
+            "language": "\u043c\u043e\u043a\u0448\u0435\u043d\u044c", 
+            "local": "", 
+            "prefix": "mdf", 
+            "protorel": "", 
+            "url": "http://mdf.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "meatball", 
+            "url": "http://meatballwiki.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "mediawikiwiki", 
+            "protorel": "", 
+            "url": "http://www.mediawiki.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "mediazilla", 
+            "url": "https://bugzilla.wikimedia.org/$1"
+        }, 
+        {
+            "prefix": "memoryalpha", 
+            "url": "http://memory-alpha.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "meta", 
+            "protorel": "", 
+            "url": "http://meta.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "metawiki", 
+            "url": "http://sunir.org/apps/meta.pl?$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "metawikipedia", 
+            "protorel": "", 
+            "url": "http://meta.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "language": "Malagasy", 
+            "local": "", 
+            "prefix": "mg", 
+            "protorel": "", 
+            "url": "http://mg.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Ebon", 
+            "local": "", 
+            "prefix": "mh", 
+            "protorel": "", 
+            "url": "http://mh.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u043e\u043b\u044b\u043a \u043c\u0430\u0440\u0438\u0439", 
+            "local": "", 
+            "prefix": "mhr", 
+            "protorel": "", 
+            "url": "http://mhr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "M\u0101ori", 
+            "local": "", 
+            "prefix": "mi", 
+            "protorel": "", 
+            "url": "http://mi.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Baso Minangkabau", 
+            "local": "", 
+            "prefix": "min", 
+            "protorel": "", 
+            "url": "http://min.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "mineralienatlas", 
+            "url": "http://www.mineralienatlas.de/lexikon/index.php/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "minnan", 
+            "protorel": "", 
+            "url": "http://minnan.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u043c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438", 
+            "local": "", 
+            "prefix": "mk", 
+            "protorel": "", 
+            "url": "http://mk.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0d2e\u0d32\u0d2f\u0d3e\u0d33\u0d02", 
+            "local": "", 
+            "prefix": "ml", 
+            "protorel": "", 
+            "url": "http://ml.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u043c\u043e\u043d\u0433\u043e\u043b", 
+            "local": "", 
+            "prefix": "mn", 
+            "protorel": "", 
+            "url": "http://mn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u043c\u043e\u043b\u0434\u043e\u0432\u0435\u043d\u044f\u0441\u043a\u044d", 
+            "local": "", 
+            "prefix": "mo", 
+            "protorel": "", 
+            "url": "http://mo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "moinmoin", 
+            "url": "http://moinmo.in/$1"
+        }, 
+        {
+            "prefix": "monstropedia", 
+            "url": "http://www.monstropedia.org/?title=$1"
+        }, 
+        {
+            "prefix": "mosapedia", 
+            "url": "http://mosapedia.de/wiki/index.php/$1"
+        }, 
+        {
+            "prefix": "mozcom", 
+            "url": "http://mozilla.wikia.com/wiki/$1"
+        }, 
+        {
+            "prefix": "mozillawiki", 
+            "url": "https://wiki.mozilla.org/$1"
+        }, 
+        {
+            "prefix": "mozillazinekb", 
+            "url": "http://kb.mozillazine.org/$1"
+        }, 
+        {
+            "language": "\u092e\u0930\u093e\u0920\u0940", 
+            "local": "", 
+            "prefix": "mr", 
+            "protorel": "", 
+            "url": "http://mr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u043a\u044b\u0440\u044b\u043a \u043c\u0430\u0440\u044b", 
+            "local": "", 
+            "prefix": "mrj", 
+            "protorel": "", 
+            "url": "http://mrj.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Bahasa Melayu", 
+            "local": "", 
+            "prefix": "ms", 
+            "protorel": "", 
+            "url": "http://ms.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Malti", 
+            "local": "", 
+            "prefix": "mt", 
+            "protorel": "", 
+            "url": "http://mt.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Mvskoke", 
+            "local": "", 
+            "prefix": "mus", 
+            "protorel": "", 
+            "url": "http://mus.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "musicbrainz", 
+            "url": "http://musicbrainz.org/doc/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "mw", 
+            "protorel": "", 
+            "url": "http://www.mediawiki.org/wiki/$1"
+        }, 
+        {
+            "language": "Mirand\u00e9s", 
+            "local": "", 
+            "prefix": "mwl", 
+            "protorel": "", 
+            "url": "http://mwl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "mwod", 
+            "url": "http://www.merriam-webster.com/cgi-bin/dictionary?book=Dictionary&va=$1"
+        }, 
+        {
+            "prefix": "mwot", 
+            "url": "http://www.merriam-webster.com/cgi-bin/thesaurus?book=Thesaurus&va=$1"
+        }, 
+        {
+            "language": "\u1019\u103c\u1014\u103a\u1019\u102c\u1018\u102c\u101e\u102c", 
+            "local": "", 
+            "prefix": "my", 
+            "protorel": "", 
+            "url": "http://my.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u044d\u0440\u0437\u044f\u043d\u044c", 
+            "local": "", 
+            "prefix": "myv", 
+            "protorel": "", 
+            "url": "http://myv.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0645\u0627\u0632\u0650\u0631\u0648\u0646\u06cc", 
+            "local": "", 
+            "prefix": "mzn", 
+            "protorel": "", 
+            "url": "http://mzn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "n", 
+            "protorel": "", 
+            "url": "http://kn.wikinews.org/wiki/$1"
+        }, 
+        {
+            "language": "Dorerin Naoero", 
+            "local": "", 
+            "prefix": "na", 
+            "protorel": "", 
+            "url": "http://na.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "N\u0101huatl", 
+            "local": "", 
+            "prefix": "nah", 
+            "protorel": "", 
+            "url": "http://nah.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "B\u00e2n-l\u00e2m-g\u00fa", 
+            "local": "", 
+            "prefix": "nan", 
+            "protorel": "", 
+            "url": "http://nan.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Napulitano", 
+            "local": "", 
+            "prefix": "nap", 
+            "protorel": "", 
+            "url": "http://nap.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "nara", 
+            "url": "http://research.archives.gov/description/$1"
+        }, 
+        {
+            "language": "norsk bokm\u00e5l", 
+            "local": "", 
+            "prefix": "nb", 
+            "protorel": "", 
+            "url": "http://nb.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Plattd\u00fc\u00fctsch", 
+            "local": "", 
+            "prefix": "nds", 
+            "protorel": "", 
+            "url": "http://nds.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Nedersaksies", 
+            "local": "", 
+            "prefix": "nds-nl", 
+            "protorel": "", 
+            "url": "http://nds-nl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0928\u0947\u092a\u093e\u0932\u0940", 
+            "local": "", 
+            "prefix": "ne", 
+            "protorel": "", 
+            "url": "http://ne.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0928\u0947\u092a\u093e\u0932 \u092d\u093e\u0937\u093e", 
+            "local": "", 
+            "prefix": "new", 
+            "protorel": "", 
+            "url": "http://new.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Oshiwambo", 
+            "local": "", 
+            "prefix": "ng", 
+            "protorel": "", 
+            "url": "http://ng.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "nkcells", 
+            "url": "http://www.nkcells.info/index.php?title=$1"
+        }, 
+        {
+            "language": "Nederlands", 
+            "local": "", 
+            "prefix": "nl", 
+            "protorel": "", 
+            "url": "http://nl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "norsk nynorsk", 
+            "local": "", 
+            "prefix": "nn", 
+            "protorel": "", 
+            "url": "http://nn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "norsk bokm\u00e5l", 
+            "local": "", 
+            "prefix": "no", 
+            "protorel": "", 
+            "url": "http://no.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "nosmoke", 
+            "url": "http://no-smok.net/nsmk/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "nost", 
+            "protorel": "", 
+            "url": "http://nostalgia.wikipedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "nostalgia", 
+            "protorel": "", 
+            "url": "http://nostalgia.wikipedia.org/wiki/$1"
+        }, 
+        {
+            "language": "Novial", 
+            "local": "", 
+            "prefix": "nov", 
+            "protorel": "", 
+            "url": "http://nov.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Nouormand", 
+            "local": "", 
+            "prefix": "nrm", 
+            "protorel": "", 
+            "url": "http://nrm.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Sesotho sa Leboa", 
+            "local": "", 
+            "prefix": "nso", 
+            "protorel": "", 
+            "url": "http://nso.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Din\u00e9 bizaad", 
+            "local": "", 
+            "prefix": "nv", 
+            "protorel": "", 
+            "url": "http://nv.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Chi-Chewa", 
+            "local": "", 
+            "prefix": "ny", 
+            "protorel": "", 
+            "url": "http://ny.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "occitan", 
+            "local": "", 
+            "prefix": "oc", 
+            "protorel": "", 
+            "url": "http://oc.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "oeis", 
+            "protorel": "", 
+            "url": "http://oeis.org/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "oldwikisource", 
+            "protorel": "", 
+            "url": "http://wikisource.org/wiki/$1"
+        }, 
+        {
+            "prefix": "olpc", 
+            "url": "http://wiki.laptop.org/go/$1"
+        }, 
+        {
+            "language": "Oromoo", 
+            "local": "", 
+            "prefix": "om", 
+            "protorel": "", 
+            "url": "http://om.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "onelook", 
+            "url": "http://www.onelook.com/?ls=b&w=$1"
+        }, 
+        {
+            "prefix": "openfacts", 
+            "url": "http://openfacts.berlios.de/index-en.phtml?title=$1"
+        }, 
+        {
+            "prefix": "openlibrary", 
+            "url": "http://openlibrary.org/$1"
+        }, 
+        {
+            "prefix": "openstreetmap", 
+            "protorel": "", 
+            "url": "http://wiki.openstreetmap.org/wiki/$1"
+        }, 
+        {
+            "prefix": "openwetware", 
+            "url": "http://openwetware.org/wiki/$1"
+        }, 
+        {
+            "prefix": "openwiki", 
+            "url": "http://openwiki.com/?$1"
+        }, 
+        {
+            "prefix": "opera7wiki", 
+            "url": "http://operawiki.info/$1"
+        }, 
+        {
+            "language": "\u0b13\u0b21\u0b3c\u0b3f\u0b06", 
+            "local": "", 
+            "prefix": "or", 
+            "protorel": "", 
+            "url": "http://or.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "organicdesign", 
+            "url": "http://www.organicdesign.co.nz/$1"
+        }, 
+        {
+            "prefix": "orthodoxwiki", 
+            "url": "http://orthodoxwiki.org/$1"
+        }, 
+        {
+            "language": "\u0418\u0440\u043e\u043d", 
+            "local": "", 
+            "prefix": "os", 
+            "protorel": "", 
+            "url": "http://os.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "osi_reference_model", 
+            "url": "http://wiki.tigma.ee/index.php/$1"
+        }, 
+        {
+            "prefix": "osmwiki", 
+            "protorel": "", 
+            "url": "http://wiki.openstreetmap.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "otrs", 
+            "url": "https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&TicketID=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "otrswiki", 
+            "protorel": "", 
+            "url": "http://otrs-wiki.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "ourmedia", 
+            "url": "https://www.socialtext.net/ourmedia/index.cgi?$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "outreach", 
+            "protorel": "", 
+            "url": "http://outreach.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "outreachwiki", 
+            "protorel": "", 
+            "url": "http://outreach.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40", 
+            "local": "", 
+            "prefix": "pa", 
+            "protorel": "", 
+            "url": "http://pa.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Pangasinan", 
+            "local": "", 
+            "prefix": "pag", 
+            "protorel": "", 
+            "url": "http://pag.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Kapampangan", 
+            "local": "", 
+            "prefix": "pam", 
+            "protorel": "", 
+            "url": "http://pam.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "panawiki", 
+            "url": "http://wiki.alairelibre.net/index.php?title=$1"
+        }, 
+        {
+            "language": "Papiamentu", 
+            "local": "", 
+            "prefix": "pap", 
+            "protorel": "", 
+            "url": "http://pap.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "patwiki", 
+            "url": "http://gauss.ffii.org/$1"
+        }, 
+        {
+            "language": "Picard", 
+            "local": "", 
+            "prefix": "pcd", 
+            "protorel": "", 
+            "url": "http://pcd.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Deitsch", 
+            "local": "", 
+            "prefix": "pdc", 
+            "protorel": "", 
+            "url": "http://pdc.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "perlnet", 
+            "url": "http://perl.net.au/wiki/$1"
+        }, 
+        {
+            "prefix": "personaltelco", 
+            "url": "http://www.personaltelco.net/$1"
+        }, 
+        {
+            "language": "P\u00e4lzisch", 
+            "local": "", 
+            "prefix": "pfl", 
+            "protorel": "", 
+            "url": "http://pfl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "phab", 
+            "url": "https://phabricator.wikimedia.org/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "phabricator", 
+            "url": "https://phabricator.wikimedia.org/$1"
+        }, 
+        {
+            "prefix": "phpwiki", 
+            "url": "http://phpwiki.sourceforge.net/phpwiki/index.php?$1"
+        }, 
+        {
+            "prefix": "phwiki", 
+            "url": "http://www.pocketheaven.com/ph/wiki/index.php?title=$1"
+        }, 
+        {
+            "language": "\u092a\u093e\u0932\u093f", 
+            "local": "", 
+            "prefix": "pi", 
+            "protorel": "", 
+            "url": "http://pi.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Norfuk / Pitkern", 
+            "local": "", 
+            "prefix": "pih", 
+            "protorel": "", 
+            "url": "http://pih.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "polski", 
+            "local": "", 
+            "prefix": "pl", 
+            "protorel": "", 
+            "url": "http://pl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "planetmath", 
+            "url": "http://planetmath.org/node/$1"
+        }, 
+        {
+            "prefix": "pmeg", 
+            "url": "http://www.bertilow.com/pmeg/$1"
+        }, 
+        {
+            "language": "Piemont\u00e8is", 
+            "local": "", 
+            "prefix": "pms", 
+            "protorel": "", 
+            "url": "http://pms.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u067e\u0646\u062c\u0627\u0628\u06cc", 
+            "local": "", 
+            "prefix": "pnb", 
+            "protorel": "", 
+            "url": "http://pnb.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u03a0\u03bf\u03bd\u03c4\u03b9\u03b1\u03ba\u03ac", 
+            "local": "", 
+            "prefix": "pnt", 
+            "protorel": "", 
+            "url": "http://pnt.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "proofwiki", 
+            "protorel": "", 
+            "url": "http://www.proofwiki.org/wiki/$1"
+        }, 
+        {
+            "language": "\u067e\u069a\u062a\u0648", 
+            "local": "", 
+            "prefix": "ps", 
+            "protorel": "", 
+            "url": "http://ps.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "psycle", 
+            "url": "http://psycle.sourceforge.net/wiki/$1"
+        }, 
+        {
+            "language": "portugu\u00eas", 
+            "local": "", 
+            "prefix": "pt", 
+            "protorel": "", 
+            "url": "http://pt.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "pyrev", 
+            "protorel": "", 
+            "url": "http://www.mediawiki.org/wiki/Special:Code/pywikipedia/$1"
+        }, 
+        {
+            "prefix": "pythoninfo", 
+            "url": "http://www.python.org/cgi-bin/moinmoin/$1"
+        }, 
+        {
+            "prefix": "pythonwiki", 
+            "url": "http://www.pythonwiki.de/$1"
+        }, 
+        {
+            "prefix": "pywiki", 
+            "url": "http://c2.com/cgi/wiki?$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "q", 
+            "protorel": "", 
+            "url": "http://kn.wikiquote.org/wiki/$1"
+        }, 
+        {
+            "language": "Runa Simi", 
+            "local": "", 
+            "prefix": "qu", 
+            "protorel": "", 
+            "url": "http://qu.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "quality", 
+            "protorel": "", 
+            "url": "http://quality.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "rcirc", 
+            "url": "irc://irc.wikimedia.org/$1"
+        }, 
+        {
+            "prefix": "reuterswiki", 
+            "url": "http://glossary.reuters.com/index.php/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "rev", 
+            "protorel": "", 
+            "url": "http://www.mediawiki.org/wiki/Special:Code/MediaWiki/$1"
+        }, 
+        {
+            "prefix": "revo", 
+            "url": "http://purl.org/NET/voko/revo/art/$1.html"
+        }, 
+        {
+            "prefix": "rfc", 
+            "protorel": "", 
+            "url": "http://tools.ietf.org/html/rfc$1"
+        }, 
+        {
+            "prefix": "rheinneckar", 
+            "url": "http://rhein-neckar-wiki.de/$1"
+        }, 
+        {
+            "language": "rumantsch", 
+            "local": "", 
+            "prefix": "rm", 
+            "protorel": "", 
+            "url": "http://rm.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Romani", 
+            "local": "", 
+            "prefix": "rmy", 
+            "protorel": "", 
+            "url": "http://rmy.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Kirundi", 
+            "local": "", 
+            "prefix": "rn", 
+            "protorel": "", 
+            "url": "http://rn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "rom\u00e2n\u0103", 
+            "local": "", 
+            "prefix": "ro", 
+            "protorel": "", 
+            "url": "http://ro.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "arm\u00e3neashti", 
+            "local": "", 
+            "prefix": "roa-rup", 
+            "protorel": "", 
+            "url": "http://roa-rup.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "tarand\u00edne", 
+            "local": "", 
+            "prefix": "roa-tara", 
+            "protorel": "", 
+            "url": "http://roa-tara.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "robowiki", 
+            "url": "http://robowiki.net/?$1"
+        }, 
+        {
+            "prefix": "rowiki", 
+            "url": "http://wiki.rennkuckuck.de/index.php/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "rt", 
+            "url": "https://rt.wikimedia.org/Ticket/Display.html?id=$1"
+        }, 
+        {
+            "prefix": "rtfm", 
+            "url": "ftp://rtfm.mit.edu/pub/faqs/$1"
+        }, 
+        {
+            "language": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439", 
+            "local": "", 
+            "prefix": "ru", 
+            "protorel": "", 
+            "url": "http://ru.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0440\u0443\u0441\u0438\u043d\u044c\u0441\u043a\u044b\u0439", 
+            "local": "", 
+            "prefix": "rue", 
+            "protorel": "", 
+            "url": "http://rue.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "arm\u00e3neashti", 
+            "local": "", 
+            "prefix": "rup", 
+            "protorel": "", 
+            "url": "http://roa-rup.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Kinyarwanda", 
+            "local": "", 
+            "prefix": "rw", 
+            "protorel": "", 
+            "url": "http://rw.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "s", 
+            "protorel": "", 
+            "url": "http://kn.wikisource.org/wiki/$1"
+        }, 
+        {
+            "prefix": "s23wiki", 
+            "url": "http://s23.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0938\u0902\u0938\u094d\u0915\u0943\u0924\u092e\u094d", 
+            "local": "", 
+            "prefix": "sa", 
+            "protorel": "", 
+            "url": "http://sa.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0441\u0430\u0445\u0430 \u0442\u044b\u043b\u0430", 
+            "local": "", 
+            "prefix": "sah", 
+            "protorel": "", 
+            "url": "http://sah.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "sardu", 
+            "local": "", 
+            "prefix": "sc", 
+            "protorel": "", 
+            "url": "http://sc.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "scholar", 
+            "url": "http://scholar.google.com/scholar?q=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "schoolswp", 
+            "url": "http://schools-wikipedia.org/wiki/$1"
+        }, 
+        {
+            "language": "sicilianu", 
+            "local": "", 
+            "prefix": "scn", 
+            "protorel": "", 
+            "url": "http://scn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Scots", 
+            "local": "", 
+            "prefix": "sco", 
+            "protorel": "", 
+            "url": "http://sco.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "scores", 
+            "url": "http://imslp.org/wiki/$1"
+        }, 
+        {
+            "prefix": "scoutwiki", 
+            "url": "http://en.scoutwiki.org/$1"
+        }, 
+        {
+            "prefix": "scramble", 
+            "url": "http://www.scramble.nl/wiki/index.php?title=$1"
+        }, 
+        {
+            "language": "\u0633\u0646\u068c\u064a", 
+            "local": "", 
+            "prefix": "sd", 
+            "protorel": "", 
+            "url": "http://sd.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "s\u00e1megiella", 
+            "local": "", 
+            "prefix": "se", 
+            "protorel": "", 
+            "url": "http://se.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "seapig", 
+            "url": "http://www.seapig.org/$1"
+        }, 
+        {
+            "prefix": "seattlewiki", 
+            "url": "http://seattlewiki.org/wiki/$1"
+        }, 
+        {
+            "prefix": "seattlewireless", 
+            "url": "http://seattlewireless.net/?$1"
+        }, 
+        {
+            "prefix": "sector001", 
+            "url": "http://gagadesigns.net/wiki/startrek/index.php?title=$1"
+        }, 
+        {
+            "prefix": "securewikidc", 
+            "url": "https://secure.wikidc.org/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "semantic-mw", 
+            "protorel": "", 
+            "url": "http://www.semantic-mediawiki.org/wiki/$1"
+        }, 
+        {
+            "prefix": "senseislibrary", 
+            "url": "http://senseis.xmp.net/?$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "sep11", 
+            "protorel": "", 
+            "url": "http://sep11.wikipedia.org/wiki/$1"
+        }, 
+        {
+            "language": "S\u00e4ng\u00f6", 
+            "local": "", 
+            "prefix": "sg", 
+            "protorel": "", 
+            "url": "http://sg.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u017eemait\u0117\u0161ka", 
+            "local": "", 
+            "prefix": "sgs", 
+            "protorel": "", 
+            "url": "http://bat-smg.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "srpskohrvatski / \u0441\u0440\u043f\u0441\u043a\u043e\u0445\u0440\u0432\u0430\u0442\u0441\u043a\u0438", 
+            "local": "", 
+            "prefix": "sh", 
+            "protorel": "", 
+            "url": "http://sh.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "sharemap", 
+            "url": "http://sharemap.org/$1"
+        }, 
+        {
+            "language": "\u0dc3\u0dd2\u0d82\u0dc4\u0dbd", 
+            "local": "", 
+            "prefix": "si", 
+            "protorel": "", 
+            "url": "http://si.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "silcode", 
+            "url": "http://www.sil.org/iso639-3/documentation.asp?id=$1"
+        }, 
+        {
+            "language": "Simple English", 
+            "local": "", 
+            "prefix": "simple", 
+            "protorel": "", 
+            "url": "http://simple.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "sloven\u010dina", 
+            "local": "", 
+            "prefix": "sk", 
+            "protorel": "", 
+            "url": "http://sk.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "sloven\u0161\u010dina", 
+            "local": "", 
+            "prefix": "sl", 
+            "protorel": "", 
+            "url": "http://sl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "slashdot", 
+            "url": "http://slashdot.org/article.pl?sid=$1"
+        }, 
+        {
+            "prefix": "slwiki", 
+            "url": "http://wiki.secondlife.com/wiki/$1"
+        }, 
+        {
+            "language": "Gagana Samoa", 
+            "local": "", 
+            "prefix": "sm", 
+            "protorel": "", 
+            "url": "http://sm.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "smikipedia", 
+            "url": "http://www.smiki.de/$1"
+        }, 
+        {
+            "language": "chiShona", 
+            "local": "", 
+            "prefix": "sn", 
+            "protorel": "", 
+            "url": "http://sn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Soomaaliga", 
+            "local": "", 
+            "prefix": "so", 
+            "protorel": "", 
+            "url": "http://so.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "sourceforge", 
+            "url": "http://sourceforge.net/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "spcom", 
+            "protorel": "", 
+            "url": "http://spcom.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "species", 
+            "protorel": "", 
+            "url": "http://species.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "language": "shqip", 
+            "local": "", 
+            "prefix": "sq", 
+            "protorel": "", 
+            "url": "http://sq.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "squeak", 
+            "url": "http://wiki.squeak.org/squeak/$1"
+        }, 
+        {
+            "language": "\u0441\u0440\u043f\u0441\u043a\u0438 / srpski", 
+            "local": "", 
+            "prefix": "sr", 
+            "protorel": "", 
+            "url": "http://sr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Sranantongo", 
+            "local": "", 
+            "prefix": "srn", 
+            "protorel": "", 
+            "url": "http://srn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "SiSwati", 
+            "local": "", 
+            "prefix": "ss", 
+            "protorel": "", 
+            "url": "http://ss.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Sesotho", 
+            "local": "", 
+            "prefix": "st", 
+            "protorel": "", 
+            "url": "http://st.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "stats", 
+            "url": "http://stats.wikimedia.org/$1"
+        }, 
+        {
+            "prefix": "stewardry", 
+            "protorel": "", 
+            "url": "http://tools.wmflabs.org/pathoschild-contrib/stewardry/?wiki=$1"
+        }, 
+        {
+            "language": "Seeltersk", 
+            "local": "", 
+            "prefix": "stq", 
+            "protorel": "", 
+            "url": "http://stq.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "strategy", 
+            "protorel": "", 
+            "url": "http://strategy.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "strategywiki", 
+            "url": "http://strategywiki.org/wiki/$1"
+        }, 
+        {
+            "language": "Basa Sunda", 
+            "local": "", 
+            "prefix": "su", 
+            "protorel": "", 
+            "url": "http://su.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "sulutil", 
+            "protorel": "", 
+            "url": "http://meta.wikimedia.org/wiki/Special:CentralAuth/$1"
+        }, 
+        {
+            "language": "svenska", 
+            "local": "", 
+            "prefix": "sv", 
+            "protorel": "", 
+            "url": "http://sv.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "svgwiki", 
+            "url": "http://wiki.svg.org/index.php/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "svn", 
+            "protorel": "", 
+            "url": "http://svn.wikimedia.org/viewvc/mediawiki/$1?view=log"
+        }, 
+        {
+            "language": "Kiswahili", 
+            "local": "", 
+            "prefix": "sw", 
+            "protorel": "", 
+            "url": "http://sw.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "swinbrain", 
+            "url": "http://mercury.it.swin.edu.au/swinbrain/index.php/$1"
+        }, 
+        {
+            "prefix": "swtrain", 
+            "url": "http://train.spottingworld.com/$1"
+        }, 
+        {
+            "language": "\u015bl\u016fnski", 
+            "local": "", 
+            "prefix": "szl", 
+            "protorel": "", 
+            "url": "http://szl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd", 
+            "local": "", 
+            "prefix": "ta", 
+            "protorel": "", 
+            "url": "http://ta.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "tabwiki", 
+            "url": "http://www.tabwiki.com/index.php/$1"
+        }, 
+        {
+            "prefix": "tavi", 
+            "url": "http://tavi.sourceforge.net/$1"
+        }, 
+        {
+            "prefix": "tclerswiki", 
+            "url": "http://wiki.tcl.tk/$1"
+        }, 
+        {
+            "language": "\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41", 
+            "local": "", 
+            "prefix": "te", 
+            "protorel": "", 
+            "url": "http://te.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "technorati", 
+            "url": "http://www.technorati.com/search/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "tenwiki", 
+            "protorel": "", 
+            "url": "http://ten.wikipedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "test2wiki", 
+            "protorel": "", 
+            "url": "http://test2.wikipedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "testwiki", 
+            "protorel": "", 
+            "url": "http://test.wikipedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "testwikidata", 
+            "protorel": "", 
+            "url": "http://test.wikidata.org/wiki/$1"
+        }, 
+        {
+            "language": "tetun", 
+            "local": "", 
+            "prefix": "tet", 
+            "protorel": "", 
+            "url": "http://tet.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "tfwiki", 
+            "url": "http://tfwiki.net/wiki/$1"
+        }, 
+        {
+            "language": "\u0442\u043e\u04b7\u0438\u043a\u04e3", 
+            "local": "", 
+            "prefix": "tg", 
+            "protorel": "", 
+            "url": "http://tg.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0e44\u0e17\u0e22", 
+            "local": "", 
+            "prefix": "th", 
+            "protorel": "", 
+            "url": "http://th.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "thelemapedia", 
+            "url": "http://www.thelemapedia.org/index.php/$1"
+        }, 
+        {
+            "prefix": "theopedia", 
+            "url": "http://www.theopedia.com/$1"
+        }, 
+        {
+            "prefix": "thinkwiki", 
+            "url": "http://www.thinkwiki.org/wiki/$1"
+        }, 
+        {
+            "language": "\u1275\u130d\u122d\u129b", 
+            "local": "", 
+            "prefix": "ti", 
+            "protorel": "", 
+            "url": "http://ti.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "tibiawiki", 
+            "url": "http://tibia.erig.net/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "ticket", 
+            "url": "https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&TicketNumber=$1"
+        }, 
+        {
+            "language": "T\u00fcrkmen\u00e7e", 
+            "local": "", 
+            "prefix": "tk", 
+            "protorel": "", 
+            "url": "http://tk.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Tagalog", 
+            "local": "", 
+            "prefix": "tl", 
+            "protorel": "", 
+            "url": "http://tl.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "tmbw", 
+            "url": "http://tmbw.net/wiki/$1"
+        }, 
+        {
+            "prefix": "tmnet", 
+            "url": "http://www.technomanifestos.net/?$1"
+        }, 
+        {
+            "prefix": "tmwiki", 
+            "url": "http://www.EasyTopicMaps.com/?page=$1"
+        }, 
+        {
+            "language": "Setswana", 
+            "local": "", 
+            "prefix": "tn", 
+            "protorel": "", 
+            "url": "http://tn.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "lea faka-Tonga", 
+            "local": "", 
+            "prefix": "to", 
+            "protorel": "", 
+            "url": "http://to.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "toollabs", 
+            "protorel": "", 
+            "url": "http://tools.wmflabs.org/$1"
+        }, 
+        {
+            "prefix": "tools", 
+            "protorel": "", 
+            "url": "http://toolserver.org/$1"
+        }, 
+        {
+            "language": "Tok Pisin", 
+            "local": "", 
+            "prefix": "tpi", 
+            "protorel": "", 
+            "url": "http://tpi.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "T\u00fcrk\u00e7e", 
+            "local": "", 
+            "prefix": "tr", 
+            "protorel": "", 
+            "url": "http://tr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "translatewiki", 
+            "url": "https://translatewiki.net/wiki/$1"
+        }, 
+        {
+            "language": "Xitsonga", 
+            "local": "", 
+            "prefix": "ts", 
+            "protorel": "", 
+            "url": "http://ts.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "tswiki", 
+            "url": "https://wiki.toolserver.org/view/$1"
+        }, 
+        {
+            "language": "\u0442\u0430\u0442\u0430\u0440\u0447\u0430/tatar\u00e7a", 
+            "local": "", 
+            "prefix": "tt", 
+            "protorel": "", 
+            "url": "http://tt.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "chiTumbuka", 
+            "local": "", 
+            "prefix": "tum", 
+            "protorel": "", 
+            "url": "http://tum.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "tviv", 
+            "url": "http://tviv.org/wiki/$1"
+        }, 
+        {
+            "prefix": "tvtropes", 
+            "url": "http://www.tvtropes.org/pmwiki/pmwiki.php/Main/$1"
+        }, 
+        {
+            "language": "Twi", 
+            "local": "", 
+            "prefix": "tw", 
+            "protorel": "", 
+            "url": "http://tw.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "twiki", 
+            "url": "http://twiki.org/cgi-bin/view/$1"
+        }, 
+        {
+            "language": "reo tahiti", 
+            "local": "", 
+            "prefix": "ty", 
+            "protorel": "", 
+            "url": "http://ty.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0442\u044b\u0432\u0430 \u0434\u044b\u043b", 
+            "local": "", 
+            "prefix": "tyv", 
+            "protorel": "", 
+            "url": "http://tyv.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "tyvawiki", 
+            "url": "http://www.tyvawiki.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0443\u0434\u043c\u0443\u0440\u0442", 
+            "local": "", 
+            "prefix": "udm", 
+            "protorel": "", 
+            "url": "http://udm.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0626\u06c7\u064a\u063a\u06c7\u0631\u0686\u06d5 / Uyghurche", 
+            "local": "", 
+            "prefix": "ug", 
+            "protorel": "", 
+            "url": "http://ug.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430", 
+            "local": "", 
+            "prefix": "uk", 
+            "protorel": "", 
+            "url": "http://uk.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "uncyclopedia", 
+            "url": "http://en.uncyclopedia.co/wiki/$1"
+        }, 
+        {
+            "prefix": "unihan", 
+            "url": "http://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=$1"
+        }, 
+        {
+            "prefix": "unreal", 
+            "url": "http://wiki.beyondunreal.com/wiki/$1"
+        }, 
+        {
+            "language": "\u0627\u0631\u062f\u0648", 
+            "local": "", 
+            "prefix": "ur", 
+            "protorel": "", 
+            "url": "http://ur.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "urbandict", 
+            "url": "http://www.urbandictionary.com/define.php?term=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "usability", 
+            "protorel": "", 
+            "url": "http://usability.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "usej", 
+            "url": "http://www.tejo.org/usej/$1"
+        }, 
+        {
+            "prefix": "usemod", 
+            "url": "http://www.usemod.com/cgi-bin/wiki.pl?$1"
+        }, 
+        {
+            "language": "o\u02bbzbekcha", 
+            "local": "", 
+            "prefix": "uz", 
+            "protorel": "", 
+            "url": "http://uz.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "v", 
+            "protorel": "", 
+            "url": "http://kn.wikiversity.org/wiki/$1"
+        }, 
+        {
+            "language": "Tshivenda", 
+            "local": "", 
+            "prefix": "ve", 
+            "protorel": "", 
+            "url": "http://ve.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "v\u00e8neto", 
+            "local": "", 
+            "prefix": "vec", 
+            "protorel": "", 
+            "url": "http://vec.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "veps\u00e4n kel\u2019", 
+            "local": "", 
+            "prefix": "vep", 
+            "protorel": "", 
+            "url": "http://vep.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Ti\u1ebfng Vi\u1ec7t", 
+            "local": "", 
+            "prefix": "vi", 
+            "protorel": "", 
+            "url": "http://vi.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "viaf", 
+            "url": "http://viaf.org/viaf/$1"
+        }, 
+        {
+            "prefix": "vinismo", 
+            "url": "http://vinismo.com/en/$1"
+        }, 
+        {
+            "prefix": "vkol", 
+            "url": "http://kol.coldfront.net/thekolwiki/index.php/$1"
+        }, 
+        {
+            "prefix": "vlos", 
+            "url": "http://www.thuvienkhoahoc.com/tusach/$1"
+        }, 
+        {
+            "language": "West-Vlams", 
+            "local": "", 
+            "prefix": "vls", 
+            "protorel": "", 
+            "url": "http://vls.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Volap\u00fck", 
+            "local": "", 
+            "prefix": "vo", 
+            "protorel": "", 
+            "url": "http://vo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "voipinfo", 
+            "url": "http://www.voip-info.org/wiki/view/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "voy", 
+            "protorel": "", 
+            "url": "http://kn.wikivoyage.org/wiki/$1"
+        }, 
+        {
+            "language": "V\u00f5ro", 
+            "local": "", 
+            "prefix": "vro", 
+            "protorel": "", 
+            "url": "http://fiu-vro.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "w", 
+            "protorel": "", 
+            "url": "http://kn.wikipedia.org/wiki/$1"
+        }, 
+        {
+            "language": "walon", 
+            "local": "", 
+            "prefix": "wa", 
+            "protorel": "", 
+            "url": "http://wa.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Winaray", 
+            "local": "", 
+            "prefix": "war", 
+            "protorel": "", 
+            "url": "http://war.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "webisodes", 
+            "url": "http://www.webisodes.org/$1"
+        }, 
+        {
+            "prefix": "werelate", 
+            "url": "http://www.werelate.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wg", 
+            "url": "http://wg.en.wikipedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wikia", 
+            "url": "http://www.wikia.com/wiki/c:$1"
+        }, 
+        {
+            "prefix": "wikiapiary", 
+            "protorel": "", 
+            "url": "http://wikiapiary.com/wiki/$1"
+        }, 
+        {
+            "prefix": "wikiasite", 
+            "url": "http://www.wikia.com/wiki/c:$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikibooks", 
+            "protorel": "", 
+            "url": "http://en.wikibooks.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wikichristian", 
+            "url": "http://www.wikichristian.org/index.php?title=$1"
+        }, 
+        {
+            "prefix": "wikicities", 
+            "url": "http://www.wikia.com/wiki/$1"
+        }, 
+        {
+            "prefix": "wikicity", 
+            "url": "http://www.wikia.com/wiki/c:$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikidata", 
+            "protorel": "", 
+            "url": "http://www.wikidata.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wikif1", 
+            "url": "http://www.wikif1.org/$1"
+        }, 
+        {
+            "prefix": "wikifur", 
+            "protorel": "", 
+            "url": "http://en.wikifur.com/wiki/$1"
+        }, 
+        {
+            "prefix": "wikihow", 
+            "url": "http://www.wikihow.com/$1"
+        }, 
+        {
+            "prefix": "wikiindex", 
+            "url": "http://wikiindex.org/$1"
+        }, 
+        {
+            "prefix": "wikilemon", 
+            "url": "http://wiki.illemonati.com/$1"
+        }, 
+        {
+            "prefix": "wikilivres", 
+            "url": "http://wikilivres.ca/wiki/$1"
+        }, 
+        {
+            "prefix": "wikimac-de", 
+            "url": "http://apfelwiki.de/wiki/Main/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikimedia", 
+            "protorel": "", 
+            "url": "http://wikimediafoundation.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikinews", 
+            "protorel": "", 
+            "url": "http://en.wikinews.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wikinfo", 
+            "url": "http://wikinfo.org/w/index.php/$1"
+        }, 
+        {
+            "prefix": "wikinvest", 
+            "url": "http://www.wikinvest.com/$1"
+        }, 
+        {
+            "prefix": "wikiotics", 
+            "protorel": "", 
+            "url": "http://wikiotics.org/$1"
+        }, 
+        {
+            "prefix": "wikipaltz", 
+            "url": "http://www.wikipaltz.com/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikipedia", 
+            "protorel": "", 
+            "url": "http://en.wikipedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikipediawikipedia", 
+            "protorel": "", 
+            "url": "http://en.wikipedia.org/wiki/Wikipedia:$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikiquote", 
+            "protorel": "", 
+            "url": "http://en.wikiquote.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wikischool", 
+            "url": "http://www.wikischool.de/wiki/$1"
+        }, 
+        {
+            "prefix": "wikiskripta", 
+            "url": "http://www.wikiskripta.eu/index.php/$1"
+        }, 
+        {
+            "prefix": "wikisophia", 
+            "url": "http://wikisophia.org/index.php?title=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikisource", 
+            "protorel": "", 
+            "url": "http://en.wikisource.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikispecies", 
+            "protorel": "", 
+            "url": "http://species.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wikispot", 
+            "url": "http://wikispot.org/?action=gotowikipage&v=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikitech", 
+            "url": "https://wikitech.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wikiti", 
+            "url": "http://wikiti.denglend.net/index.php?title=$1"
+        }, 
+        {
+            "prefix": "wikitree", 
+            "url": "http://wikitree.org/index.php?title=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikiversity", 
+            "protorel": "", 
+            "url": "http://en.wikiversity.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wikivoyage", 
+            "protorel": "", 
+            "url": "http://en.wikivoyage.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wikiweet", 
+            "url": "http://wikiweet.nl/wiki/$1"
+        }, 
+        {
+            "prefix": "wikiwikiweb", 
+            "url": "http://c2.com/cgi/wiki?$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wiktionary", 
+            "protorel": "", 
+            "url": "http://en.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wipipedia", 
+            "url": "http://www.londonfetishscene.com/wipi/index.php/$1"
+        }, 
+        {
+            "prefix": "wlug", 
+            "url": "http://www.wlug.org.nz/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2005", 
+            "protorel": "", 
+            "url": "http://wikimania2005.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2006", 
+            "protorel": "", 
+            "url": "http://wikimania2006.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2007", 
+            "protorel": "", 
+            "url": "http://wikimania2007.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2008", 
+            "protorel": "", 
+            "url": "http://wikimania2008.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2009", 
+            "protorel": "", 
+            "url": "http://wikimania2009.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2010", 
+            "protorel": "", 
+            "url": "http://wikimania2010.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2011", 
+            "protorel": "", 
+            "url": "http://wikimania2011.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2012", 
+            "protorel": "", 
+            "url": "http://wikimania2012.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2013", 
+            "protorel": "", 
+            "url": "http://wikimania2013.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2014", 
+            "protorel": "", 
+            "url": "http://wikimania2014.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wm2015", 
+            "protorel": "", 
+            "url": "http://wikimania2015.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmania", 
+            "protorel": "", 
+            "url": "http://wikimania.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmar", 
+            "url": "http://www.wikimedia.org.ar/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmau", 
+            "url": "http://wikimedia.org.au/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmbd", 
+            "protorel": "", 
+            "url": "http://bd.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmbe", 
+            "protorel": "", 
+            "url": "http://be.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmbr", 
+            "protorel": "", 
+            "url": "http://br.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wmca", 
+            "url": "http://wikimedia.ca/wiki/$1"
+        }, 
+        {
+            "prefix": "wmch", 
+            "url": "http://www.wikimedia.ch/$1"
+        }, 
+        {
+            "prefix": "wmcl", 
+            "url": "http://www.wikimediachile.cl/index.php?title=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmco", 
+            "protorel": "", 
+            "url": "http://co.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wmcz", 
+            "url": "http://www.wikimedia.cz/web/$1"
+        }, 
+        {
+            "prefix": "wmdc", 
+            "url": "http://wikimediadc.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wmde", 
+            "protorel": "", 
+            "url": "http://wikimedia.de/wiki/$1"
+        }, 
+        {
+            "prefix": "wmdeblog", 
+            "protorel": "", 
+            "url": "http://blog.wikimedia.de/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmdk", 
+            "protorel": "", 
+            "url": "http://dk.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmee", 
+            "protorel": "", 
+            "url": "http://et.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wmes", 
+            "url": "http://www.wikimedia.es/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmet", 
+            "protorel": "", 
+            "url": "http://et.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmf", 
+            "protorel": "", 
+            "url": "http://wikimediafoundation.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmfblog", 
+            "protorel": "", 
+            "url": "http://blog.wikimedia.org/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmfi", 
+            "protorel": "", 
+            "url": "http://fi.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wmfr", 
+            "url": "http://wikimedia.fr/$1"
+        }, 
+        {
+            "prefix": "wmhk", 
+            "url": "http://wikimedia.hk/index.php/$1"
+        }, 
+        {
+            "prefix": "wmhu", 
+            "url": "http://wikimedia.hu/wiki/$1"
+        }, 
+        {
+            "prefix": "wmid", 
+            "url": "http://www.wikimedia.or.id/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmil", 
+            "url": "http://www.wikimedia.org.il/$1"
+        }, 
+        {
+            "prefix": "wmin", 
+            "url": "http://wiki.wikimedia.in/$1"
+        }, 
+        {
+            "prefix": "wmit", 
+            "url": "http://wiki.wikimedia.it/wiki/$1"
+        }, 
+        {
+            "prefix": "wmke", 
+            "url": "http://wikimedia.or.ke/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmmk", 
+            "protorel": "", 
+            "url": "http://mk.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmmx", 
+            "protorel": "", 
+            "url": "http://mx.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmnl", 
+            "protorel": "", 
+            "url": "http://nl.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmno", 
+            "protorel": "", 
+            "url": "http://no.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmnyc", 
+            "protorel": "", 
+            "url": "http://nyc.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmpa-us", 
+            "protorel": "", 
+            "url": "http://pa-us.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmph", 
+            "url": "http://wikimedia.org.ph/wmph/index.php?title=$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmpl", 
+            "protorel": "", 
+            "url": "http://pl.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wmpt", 
+            "url": "http://wikimedia.pt/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmrs", 
+            "protorel": "", 
+            "url": "http://rs.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmru", 
+            "protorel": "", 
+            "url": "http://ru.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmse", 
+            "protorel": "", 
+            "url": "http://se.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wmsk", 
+            "url": "http://wikimedia.sk/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmteam", 
+            "protorel": "", 
+            "url": "http://wikimaniateam.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmtr", 
+            "protorel": "", 
+            "url": "http://tr.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wmtw", 
+            "url": "http://wikimedia.tw/wiki/index.php5/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmua", 
+            "protorel": "", 
+            "url": "http://ua.wikimedia.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmuk", 
+            "protorel": "", 
+            "url": "http://wikimedia.org.uk/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmve", 
+            "url": "http://wikimedia.org.ve/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "wmza", 
+            "url": "http://wikimedia.org.za/wiki/$1"
+        }, 
+        {
+            "language": "Wolof", 
+            "local": "", 
+            "prefix": "wo", 
+            "protorel": "", 
+            "url": "http://wo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "wookieepedia", 
+            "url": "http://starwars.wikia.com/wiki/$1"
+        }, 
+        {
+            "prefix": "wowwiki", 
+            "url": "http://www.wowwiki.com/$1"
+        }, 
+        {
+            "prefix": "wqy", 
+            "url": "http://wqy.sourceforge.net/cgi-bin/index.cgi?$1"
+        }, 
+        {
+            "prefix": "wurmpedia", 
+            "url": "http://wurmpedia.com/index.php/$1"
+        }, 
+        {
+            "language": "\u5434\u8bed", 
+            "local": "", 
+            "prefix": "wuu", 
+            "protorel": "", 
+            "url": "http://wuu.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u0445\u0430\u043b\u044c\u043c\u0433", 
+            "local": "", 
+            "prefix": "xal", 
+            "protorel": "", 
+            "url": "http://xal.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "isiXhosa", 
+            "local": "", 
+            "prefix": "xh", 
+            "protorel": "", 
+            "url": "http://xh.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u10db\u10d0\u10e0\u10d2\u10d0\u10da\u10e3\u10e0\u10d8", 
+            "local": "", 
+            "prefix": "xmf", 
+            "protorel": "", 
+            "url": "http://xmf.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u05d9\u05d9\u05b4\u05d3\u05d9\u05e9", 
+            "local": "", 
+            "prefix": "yi", 
+            "protorel": "", 
+            "url": "http://yi.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Yor\u00f9b\u00e1", 
+            "local": "", 
+            "prefix": "yo", 
+            "protorel": "", 
+            "url": "http://yo.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u7cb5\u8a9e", 
+            "local": "", 
+            "prefix": "yue", 
+            "protorel": "", 
+            "url": "http://zh-yue.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Vahcuengh", 
+            "local": "", 
+            "prefix": "za", 
+            "protorel": "", 
+            "url": "http://za.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "Ze\u00eauws", 
+            "local": "", 
+            "prefix": "zea", 
+            "protorel": "", 
+            "url": "http://zea.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u4e2d\u6587", 
+            "local": "", 
+            "prefix": "zh", 
+            "protorel": "", 
+            "url": "http://zh.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "local": "", 
+            "prefix": "zh-cfr", 
+            "protorel": "", 
+            "url": "http://zh-cfr.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u6587\u8a00", 
+            "local": "", 
+            "prefix": "zh-classical", 
+            "protorel": "", 
+            "url": "http://zh-classical.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u4e2d\u6587\uff08\u4e2d\u56fd\u5927\u9646\uff09\u200e", 
+            "local": "", 
+            "prefix": "zh-cn", 
+            "protorel": "", 
+            "url": "http://zh.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "B\u00e2n-l\u00e2m-g\u00fa", 
+            "local": "", 
+            "prefix": "zh-min-nan", 
+            "protorel": "", 
+            "url": "http://zh-min-nan.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u4e2d\u6587\uff08\u53f0\u7063\uff09\u200e", 
+            "local": "", 
+            "prefix": "zh-tw", 
+            "protorel": "", 
+            "url": "http://zh.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "language": "\u7cb5\u8a9e", 
+            "local": "", 
+            "prefix": "zh-yue", 
+            "protorel": "", 
+            "url": "http://zh-yue.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "zrhwiki", 
+            "url": "http://www.zrhwiki.ch/wiki/$1"
+        }, 
+        {
+            "language": "isiZulu", 
+            "local": "", 
+            "prefix": "zu", 
+            "protorel": "", 
+            "url": "http://zu.wiktionary.org/wiki/$1"
+        }, 
+        {
+            "prefix": "zum", 
+            "url": "http://wiki.zum.de/$1"
+        }, 
+        {
+            "prefix": "zwiki", 
+            "url": "http://www.zwiki.org/$1"
+        }, 
+        {
+            "prefix": "\u0109ej", 
+            "url": "http://esperanto.blahus.cz/cxej/vikio/index.php/$1"
+        }
+    ], 
+    "magicwords": [
+        {
+            "aliases": [
+                "lossy=$1"
+            ], 
+            "name": "img_lossy"
+        }, 
+        {
+            "aliases": [
+                "expr"
+            ], 
+            "name": "expr"
+        }, 
+        {
+            "aliases": [
+                "if"
+            ], 
+            "name": "if"
+        }, 
+        {
+            "aliases": [
+                "ifeq"
+            ], 
+            "name": "ifeq"
+        }, 
+        {
+            "aliases": [
+                "ifexpr"
+            ], 
+            "name": "ifexpr"
+        }, 
+        {
+            "aliases": [
+                "iferror"
+            ], 
+            "name": "iferror"
+        }, 
+        {
+            "aliases": [
+                "switch"
+            ], 
+            "name": "switch"
+        }, 
+        {
+            "aliases": [
+                "#default"
+            ], 
+            "name": "default"
+        }, 
+        {
+            "aliases": [
+                "ifexist"
+            ], 
+            "name": "ifexist"
+        }, 
+        {
+            "aliases": [
+                "time"
+            ], 
+            "name": "time"
+        }, 
+        {
+            "aliases": [
+                "timel"
+            ], 
+            "name": "timel"
+        }, 
+        {
+            "aliases": [
+                "rel2abs"
+            ], 
+            "name": "rel2abs"
+        }, 
+        {
+            "aliases": [
+                "titleparts"
+            ], 
+            "name": "titleparts"
+        }, 
+        {
+            "aliases": [
+                "len"
+            ], 
+            "name": "len"
+        }, 
+        {
+            "aliases": [
+                "pos"
+            ], 
+            "name": "pos"
+        }, 
+        {
+            "aliases": [
+                "rpos"
+            ], 
+            "name": "rpos"
+        }, 
+        {
+            "aliases": [
+                "sub"
+            ], 
+            "name": "sub"
+        }, 
+        {
+            "aliases": [
+                "count"
+            ], 
+            "name": "count"
+        }, 
+        {
+            "aliases": [
+                "replace"
+            ], 
+            "name": "replace"
+        }, 
+        {
+            "aliases": [
+                "explode"
+            ], 
+            "name": "explode"
+        }, 
+        {
+            "aliases": [
+                "urldecode"
+            ], 
+            "name": "urldecode"
+        }, 
+        {
+            "aliases": [
+                "categorytree"
+            ], 
+            "name": "categorytree"
+        }, 
+        {
+            "aliases": [
+                "noplayer"
+            ], 
+            "name": "timedmedia_noplayer"
+        }, 
+        {
+            "aliases": [
+                "noicon"
+            ], 
+            "name": "timedmedia_noicon"
+        }, 
+        {
+            "aliases": [
+                "thumbtime=$1"
+            ], 
+            "name": "timedmedia_thumbtime"
+        }, 
+        {
+            "aliases": [
+                "start=$1"
+            ], 
+            "name": "timedmedia_starttime"
+        }, 
+        {
+            "aliases": [
+                "end=$1"
+            ], 
+            "name": "timedmedia_endtime"
+        }, 
+        {
+            "aliases": [
+                "disablecontrols=$1"
+            ], 
+            "name": "timedmedia_disablecontrols"
+        }, 
+        {
+            "aliases": [
+                "target"
+            ], 
+            "name": "target"
+        }, 
+        {
+            "aliases": [
+                "babel"
+            ], 
+            "name": "babel"
+        }, 
+        {
+            "aliases": [
+                "__DISAMBIG__"
+            ], 
+            "case-sensitive": "", 
+            "name": "disambiguation"
+        }, 
+        {
+            "aliases": [
+                "invoke"
+            ], 
+            "name": "invoke"
+        }, 
+        {
+            "aliases": [
+                "calendar"
+            ], 
+            "name": "calendar"
+        }, 
+        {
+            "aliases": [
+                "pagesusingpendingchanges"
+            ], 
+            "name": "pagesusingpendingchanges"
+        }, 
+        {
+            "aliases": [
+                "pendingchangelevel"
+            ], 
+            "name": "pendingchangelevel"
+        }, 
+        {
+            "aliases": [
+                "switchlanguage"
+            ], 
+            "name": "switchlanguage"
+        }, 
+        {
+            "aliases": [
+                "switchcountry"
+            ], 
+            "name": "switchcountry"
+        }, 
+        {
+            "aliases": [
+                "isin"
+            ], 
+            "name": "isin"
+        }, 
+        {
+            "aliases": [
+                "coordinates"
+            ], 
+            "name": "coordinates"
+        }, 
+        {
+            "aliases": [
+                "primary"
+            ], 
+            "name": "primary"
+        }, 
+        {
+            "aliases": [
+                "insider"
+            ], 
+            "name": "insider"
+        }, 
+        {
+            "aliases": [
+                "UseLiquidThreads"
+            ], 
+            "name": "useliquidthreads"
+        }, 
+        {
+            "aliases": [
+                "lqtpagelimit"
+            ], 
+            "name": "lqtpagelimit"
+        }, 
+        {
+            "aliases": [
+                "dd2dms"
+            ], 
+            "name": "dd2dms"
+        }, 
+        {
+            "aliases": [
+                "deg2dd"
+            ], 
+            "name": "deg2dd"
+        }, 
+        {
+            "aliases": [
+                "geoLink"
+            ], 
+            "name": "geoLink"
+        }, 
+        {
+            "aliases": [
+                "related"
+            ], 
+            "name": "related"
+        }, 
+        {
+            "aliases": [
+                "translation"
+            ], 
+            "name": "translation"
+        }, 
+        {
+            "aliases": [
+                "USERTESTWIKI"
+            ], 
+            "name": "usertestwiki"
+        }, 
+        {
+            "aliases": [
+                "infopage"
+            ], 
+            "name": "infopage"
+        }, 
+        {
+            "aliases": [
+                "noexternallanglinks"
+            ], 
+            "name": "noexternallanglinks"
+        }, 
+        {
+            "aliases": [
+                "property"
+            ], 
+            "name": "property"
+        }, 
+        {
+            "aliases": [
+                "wbreponame"
+            ], 
+            "name": "wbreponame"
+        }, 
+        {
+            "aliases": [
+                "describe"
+            ], 
+            "name": "describe"
+        }, 
+        {
+            "aliases": [
+                "listerrors"
+            ], 
+            "name": "listerrors"
+        }, 
+        {
+            "aliases": [
+                "ask"
+            ], 
+            "name": "ask"
+        }, 
+        {
+            "aliases": [
+                "show"
+            ], 
+            "name": "show"
+        }, 
+        {
+            "aliases": [
+                "info"
+            ], 
+            "name": "info"
+        }, 
+        {
+            "aliases": [
+                "concept"
+            ], 
+            "name": "concept"
+        }, 
+        {
+            "aliases": [
+                "subobject"
+            ], 
+            "name": "subobject"
+        }, 
+        {
+            "aliases": [
+                "smwdoc"
+            ], 
+            "name": "smwdoc"
+        }, 
+        {
+            "aliases": [
+                "set"
+            ], 
+            "name": "set"
+        }, 
+        {
+            "aliases": [
+                "set_recurring_event"
+            ], 
+            "name": "set_recurring_event"
+        }, 
+        {
+            "aliases": [
+                "declare"
+            ], 
+            "name": "declare"
+        }, 
+        {
+            "aliases": [
+                "__NOFACTBOX__"
+            ], 
+            "name": "SMW_NOFACTBOX"
+        }, 
+        {
+            "aliases": [
+                "__SHOWFACTBOX__"
+            ], 
+            "name": "SMW_SHOWFACTBOX"
+        }, 
+        {
+            "aliases": [
+                "default_form"
+            ], 
+            "name": "default_form"
+        }, 
+        {
+            "aliases": [
+                "forminput"
+            ], 
+            "name": "forminput"
+        }, 
+        {
+            "aliases": [
+                "formlink"
+            ], 
+            "name": "formlink"
+        }, 
+        {
+            "aliases": [
+                "formredlink"
+            ], 
+            "name": "formredlink"
+        }, 
+        {
+            "aliases": [
+                "queryformlink"
+            ], 
+            "name": "queryformlink"
+        }, 
+        {
+            "aliases": [
+                "arraymap"
+            ], 
+            "name": "arraymap"
+        }, 
+        {
+            "aliases": [
+                "arraymaptemplate"
+            ], 
+            "name": "arraymaptemplate"
+        }, 
+        {
+            "aliases": [
+                "autoedit"
+            ], 
+            "name": "autoedit"
+        }, 
+        {
+            "aliases": [
+                "calendarstartdate"
+            ], 
+            "name": "calendarstartdate"
+        }, 
+        {
+            "aliases": [
+                "calendarenddate"
+            ], 
+            "name": "calendarenddate"
+        }, 
+        {
+            "aliases": [
+                "#REDIRECT"
+            ], 
+            "name": "redirect"
+        }, 
+        {
+            "aliases": [
+                "__NOTOC__"
+            ], 
+            "name": "notoc"
+        }, 
+        {
+            "aliases": [
+                "__NOGALLERY__"
+            ], 
+            "name": "nogallery"
+        }, 
+        {
+            "aliases": [
+                "__FORCETOC__"
+            ], 
+            "name": "forcetoc"
+        }, 
+        {
+            "aliases": [
+                "__TOC__"
+            ], 
+            "name": "toc"
+        }, 
+        {
+            "aliases": [
+                "__NOEDITSECTION__"
+            ], 
+            "name": "noeditsection"
+        }, 
+        {
+            "aliases": [
+                "!"
+            ], 
+            "case-sensitive": "", 
+            "name": "!"
+        }, 
+        {
+            "aliases": [
+                "CURRENTMONTH", 
+                "CURRENTMONTH2"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentmonth"
+        }, 
+        {
+            "aliases": [
+                "CURRENTMONTH1"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentmonth1"
+        }, 
+        {
+            "aliases": [
+                "CURRENTMONTHNAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentmonthname"
+        }, 
+        {
+            "aliases": [
+                "CURRENTMONTHNAMEGEN"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentmonthnamegen"
+        }, 
+        {
+            "aliases": [
+                "CURRENTMONTHABBREV"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentmonthabbrev"
+        }, 
+        {
+            "aliases": [
+                "CURRENTDAY"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentday"
+        }, 
+        {
+            "aliases": [
+                "CURRENTDAY2"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentday2"
+        }, 
+        {
+            "aliases": [
+                "CURRENTDAYNAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentdayname"
+        }, 
+        {
+            "aliases": [
+                "CURRENTYEAR"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentyear"
+        }, 
+        {
+            "aliases": [
+                "CURRENTTIME"
+            ], 
+            "case-sensitive": "", 
+            "name": "currenttime"
+        }, 
+        {
+            "aliases": [
+                "CURRENTHOUR"
+            ], 
+            "case-sensitive": "", 
+            "name": "currenthour"
+        }, 
+        {
+            "aliases": [
+                "LOCALMONTH", 
+                "LOCALMONTH2"
+            ], 
+            "case-sensitive": "", 
+            "name": "localmonth"
+        }, 
+        {
+            "aliases": [
+                "LOCALMONTH1"
+            ], 
+            "case-sensitive": "", 
+            "name": "localmonth1"
+        }, 
+        {
+            "aliases": [
+                "LOCALMONTHNAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "localmonthname"
+        }, 
+        {
+            "aliases": [
+                "LOCALMONTHNAMEGEN"
+            ], 
+            "case-sensitive": "", 
+            "name": "localmonthnamegen"
+        }, 
+        {
+            "aliases": [
+                "LOCALMONTHABBREV"
+            ], 
+            "case-sensitive": "", 
+            "name": "localmonthabbrev"
+        }, 
+        {
+            "aliases": [
+                "LOCALDAY"
+            ], 
+            "case-sensitive": "", 
+            "name": "localday"
+        }, 
+        {
+            "aliases": [
+                "LOCALDAY2"
+            ], 
+            "case-sensitive": "", 
+            "name": "localday2"
+        }, 
+        {
+            "aliases": [
+                "LOCALDAYNAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "localdayname"
+        }, 
+        {
+            "aliases": [
+                "LOCALYEAR"
+            ], 
+            "case-sensitive": "", 
+            "name": "localyear"
+        }, 
+        {
+            "aliases": [
+                "LOCALTIME"
+            ], 
+            "case-sensitive": "", 
+            "name": "localtime"
+        }, 
+        {
+            "aliases": [
+                "LOCALHOUR"
+            ], 
+            "case-sensitive": "", 
+            "name": "localhour"
+        }, 
+        {
+            "aliases": [
+                "NUMBEROFPAGES"
+            ], 
+            "case-sensitive": "", 
+            "name": "numberofpages"
+        }, 
+        {
+            "aliases": [
+                "NUMBEROFARTICLES"
+            ], 
+            "case-sensitive": "", 
+            "name": "numberofarticles"
+        }, 
+        {
+            "aliases": [
+                "NUMBEROFFILES"
+            ], 
+            "case-sensitive": "", 
+            "name": "numberoffiles"
+        }, 
+        {
+            "aliases": [
+                "NUMBEROFUSERS"
+            ], 
+            "case-sensitive": "", 
+            "name": "numberofusers"
+        }, 
+        {
+            "aliases": [
+                "NUMBEROFACTIVEUSERS"
+            ], 
+            "case-sensitive": "", 
+            "name": "numberofactiveusers"
+        }, 
+        {
+            "aliases": [
+                "NUMBEROFEDITS"
+            ], 
+            "case-sensitive": "", 
+            "name": "numberofedits"
+        }, 
+        {
+            "aliases": [
+                "PAGENAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "pagename"
+        }, 
+        {
+            "aliases": [
+                "PAGENAMEE"
+            ], 
+            "case-sensitive": "", 
+            "name": "pagenamee"
+        }, 
+        {
+            "aliases": [
+                "NAMESPACE"
+            ], 
+            "case-sensitive": "", 
+            "name": "namespace"
+        }, 
+        {
+            "aliases": [
+                "NAMESPACEE"
+            ], 
+            "case-sensitive": "", 
+            "name": "namespacee"
+        }, 
+        {
+            "aliases": [
+                "NAMESPACENUMBER"
+            ], 
+            "case-sensitive": "", 
+            "name": "namespacenumber"
+        }, 
+        {
+            "aliases": [
+                "TALKSPACE"
+            ], 
+            "case-sensitive": "", 
+            "name": "talkspace"
+        }, 
+        {
+            "aliases": [
+                "TALKSPACEE"
+            ], 
+            "case-sensitive": "", 
+            "name": "talkspacee"
+        }, 
+        {
+            "aliases": [
+                "SUBJECTSPACE", 
+                "ARTICLESPACE"
+            ], 
+            "case-sensitive": "", 
+            "name": "subjectspace"
+        }, 
+        {
+            "aliases": [
+                "SUBJECTSPACEE", 
+                "ARTICLESPACEE"
+            ], 
+            "case-sensitive": "", 
+            "name": "subjectspacee"
+        }, 
+        {
+            "aliases": [
+                "FULLPAGENAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "fullpagename"
+        }, 
+        {
+            "aliases": [
+                "FULLPAGENAMEE"
+            ], 
+            "case-sensitive": "", 
+            "name": "fullpagenamee"
+        }, 
+        {
+            "aliases": [
+                "SUBPAGENAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "subpagename"
+        }, 
+        {
+            "aliases": [
+                "SUBPAGENAMEE"
+            ], 
+            "case-sensitive": "", 
+            "name": "subpagenamee"
+        }, 
+        {
+            "aliases": [
+                "ROOTPAGENAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "rootpagename"
+        }, 
+        {
+            "aliases": [
+                "ROOTPAGENAMEE"
+            ], 
+            "case-sensitive": "", 
+            "name": "rootpagenamee"
+        }, 
+        {
+            "aliases": [
+                "BASEPAGENAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "basepagename"
+        }, 
+        {
+            "aliases": [
+                "BASEPAGENAMEE"
+            ], 
+            "case-sensitive": "", 
+            "name": "basepagenamee"
+        }, 
+        {
+            "aliases": [
+                "TALKPAGENAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "talkpagename"
+        }, 
+        {
+            "aliases": [
+                "TALKPAGENAMEE"
+            ], 
+            "case-sensitive": "", 
+            "name": "talkpagenamee"
+        }, 
+        {
+            "aliases": [
+                "SUBJECTPAGENAME", 
+                "ARTICLEPAGENAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "subjectpagename"
+        }, 
+        {
+            "aliases": [
+                "SUBJECTPAGENAMEE", 
+                "ARTICLEPAGENAMEE"
+            ], 
+            "case-sensitive": "", 
+            "name": "subjectpagenamee"
+        }, 
+        {
+            "aliases": [
+                "MSG:"
+            ], 
+            "name": "msg"
+        }, 
+        {
+            "aliases": [
+                "SUBST:"
+            ], 
+            "name": "subst"
+        }, 
+        {
+            "aliases": [
+                "SAFESUBST:"
+            ], 
+            "name": "safesubst"
+        }, 
+        {
+            "aliases": [
+                "MSGNW:"
+            ], 
+            "name": "msgnw"
+        }, 
+        {
+            "aliases": [
+                "thumbnail", 
+                "thumb"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_thumbnail"
+        }, 
+        {
+            "aliases": [
+                "thumbnail=$1", 
+                "thumb=$1"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_manualthumb"
+        }, 
+        {
+            "aliases": [
+                "right"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_right"
+        }, 
+        {
+            "aliases": [
+                "left"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_left"
+        }, 
+        {
+            "aliases": [
+                "none"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_none"
+        }, 
+        {
+            "aliases": [
+                "$1px"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_width"
+        }, 
+        {
+            "aliases": [
+                "center", 
+                "centre"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_center"
+        }, 
+        {
+            "aliases": [
+                "framed", 
+                "enframed", 
+                "frame"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_framed"
+        }, 
+        {
+            "aliases": [
+                "frameless"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_frameless"
+        }, 
+        {
+            "aliases": [
+                "lang=$1"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_lang"
+        }, 
+        {
+            "aliases": [
+                "page=$1", 
+                "page $1"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_page"
+        }, 
+        {
+            "aliases": [
+                "upright", 
+                "upright=$1", 
+                "upright $1"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_upright"
+        }, 
+        {
+            "aliases": [
+                "border"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_border"
+        }, 
+        {
+            "aliases": [
+                "baseline"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_baseline"
+        }, 
+        {
+            "aliases": [
+                "sub"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_sub"
+        }, 
+        {
+            "aliases": [
+                "super", 
+                "sup"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_super"
+        }, 
+        {
+            "aliases": [
+                "top"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_top"
+        }, 
+        {
+            "aliases": [
+                "text-top"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_text_top"
+        }, 
+        {
+            "aliases": [
+                "middle"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_middle"
+        }, 
+        {
+            "aliases": [
+                "bottom"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_bottom"
+        }, 
+        {
+            "aliases": [
+                "text-bottom"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_text_bottom"
+        }, 
+        {
+            "aliases": [
+                "link=$1"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_link"
+        }, 
+        {
+            "aliases": [
+                "alt=$1"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_alt"
+        }, 
+        {
+            "aliases": [
+                "class=$1"
+            ], 
+            "case-sensitive": "", 
+            "name": "img_class"
+        }, 
+        {
+            "aliases": [
+                "INT:"
+            ], 
+            "name": "int"
+        }, 
+        {
+            "aliases": [
+                "SITENAME"
+            ], 
+            "case-sensitive": "", 
+            "name": "sitename"
+        }, 
+        {
+            "aliases": [
+                "NS:"
+            ], 
+            "name": "ns"
+        }, 
+        {
+            "aliases": [
+                "NSE:"
+            ], 
+            "name": "nse"
+        }, 
+        {
+            "aliases": [
+                "LOCALURL:"
+            ], 
+            "name": "localurl"
+        }, 
+        {
+            "aliases": [
+                "LOCALURLE:"
+            ], 
+            "name": "localurle"
+        }, 
+        {
+            "aliases": [
+                "ARTICLEPATH"
+            ], 
+            "name": "articlepath"
+        }, 
+        {
+            "aliases": [
+                "PAGEID"
+            ], 
+            "name": "pageid"
+        }, 
+        {
+            "aliases": [
+                "SERVER"
+            ], 
+            "name": "server"
+        }, 
+        {
+            "aliases": [
+                "SERVERNAME"
+            ], 
+            "name": "servername"
+        }, 
+        {
+            "aliases": [
+                "SCRIPTPATH"
+            ], 
+            "name": "scriptpath"
+        }, 
+        {
+            "aliases": [
+                "STYLEPATH"
+            ], 
+            "name": "stylepath"
+        }, 
+        {
+            "aliases": [
+                "GRAMMAR:"
+            ], 
+            "name": "grammar"
+        }, 
+        {
+            "aliases": [
+                "GENDER:"
+            ], 
+            "name": "gender"
+        }, 
+        {
+            "aliases": [
+                "__NOTITLECONVERT__", 
+                "__NOTC__"
+            ], 
+            "name": "notitleconvert"
+        }, 
+        {
+            "aliases": [
+                "__NOCONTENTCONVERT__", 
+                "__NOCC__"
+            ], 
+            "name": "nocontentconvert"
+        }, 
+        {
+            "aliases": [
+                "CURRENTWEEK"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentweek"
+        }, 
+        {
+            "aliases": [
+                "CURRENTDOW"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentdow"
+        }, 
+        {
+            "aliases": [
+                "LOCALWEEK"
+            ], 
+            "case-sensitive": "", 
+            "name": "localweek"
+        }, 
+        {
+            "aliases": [
+                "LOCALDOW"
+            ], 
+            "case-sensitive": "", 
+            "name": "localdow"
+        }, 
+        {
+            "aliases": [
+                "REVISIONID"
+            ], 
+            "case-sensitive": "", 
+            "name": "revisionid"
+        }, 
+        {
+            "aliases": [
+                "REVISIONDAY"
+            ], 
+            "case-sensitive": "", 
+            "name": "revisionday"
+        }, 
+        {
+            "aliases": [
+                "REVISIONDAY2"
+            ], 
+            "case-sensitive": "", 
+            "name": "revisionday2"
+        }, 
+        {
+            "aliases": [
+                "REVISIONMONTH"
+            ], 
+            "case-sensitive": "", 
+            "name": "revisionmonth"
+        }, 
+        {
+            "aliases": [
+                "REVISIONMONTH1"
+            ], 
+            "case-sensitive": "", 
+            "name": "revisionmonth1"
+        }, 
+        {
+            "aliases": [
+                "REVISIONYEAR"
+            ], 
+            "case-sensitive": "", 
+            "name": "revisionyear"
+        }, 
+        {
+            "aliases": [
+                "REVISIONTIMESTAMP"
+            ], 
+            "case-sensitive": "", 
+            "name": "revisiontimestamp"
+        }, 
+        {
+            "aliases": [
+                "REVISIONUSER"
+            ], 
+            "case-sensitive": "", 
+            "name": "revisionuser"
+        }, 
+        {
+            "aliases": [
+                "REVISIONSIZE"
+            ], 
+            "case-sensitive": "", 
+            "name": "revisionsize"
+        }, 
+        {
+            "aliases": [
+                "PLURAL:"
+            ], 
+            "name": "plural"
+        }, 
+        {
+            "aliases": [
+                "FULLURL:"
+            ], 
+            "name": "fullurl"
+        }, 
+        {
+            "aliases": [
+                "FULLURLE:"
+            ], 
+            "name": "fullurle"
+        }, 
+        {
+            "aliases": [
+                "CANONICALURL:"
+            ], 
+            "name": "canonicalurl"
+        }, 
+        {
+            "aliases": [
+                "CANONICALURLE:"
+            ], 
+            "name": "canonicalurle"
+        }, 
+        {
+            "aliases": [
+                "LCFIRST:"
+            ], 
+            "name": "lcfirst"
+        }, 
+        {
+            "aliases": [
+                "UCFIRST:"
+            ], 
+            "name": "ucfirst"
+        }, 
+        {
+            "aliases": [
+                "LC:"
+            ], 
+            "name": "lc"
+        }, 
+        {
+            "aliases": [
+                "UC:"
+            ], 
+            "name": "uc"
+        }, 
+        {
+            "aliases": [
+                "RAW:"
+            ], 
+            "name": "raw"
+        }, 
+        {
+            "aliases": [
+                "DISPLAYTITLE"
+            ], 
+            "case-sensitive": "", 
+            "name": "displaytitle"
+        }, 
+        {
+            "aliases": [
+                "R"
+            ], 
+            "case-sensitive": "", 
+            "name": "rawsuffix"
+        }, 
+        {
+            "aliases": [
+                "NOSEP"
+            ], 
+            "name": "nocommafysuffix"
+        }, 
+        {
+            "aliases": [
+                "__NEWSECTIONLINK__"
+            ], 
+            "case-sensitive": "", 
+            "name": "newsectionlink"
+        }, 
+        {
+            "aliases": [
+                "__NONEWSECTIONLINK__"
+            ], 
+            "case-sensitive": "", 
+            "name": "nonewsectionlink"
+        }, 
+        {
+            "aliases": [
+                "CURRENTVERSION"
+            ], 
+            "case-sensitive": "", 
+            "name": "currentversion"
+        }, 
+        {
+            "aliases": [
+                "URLENCODE:"
+            ], 
+            "name": "urlencode"
+        }, 
+        {
+            "aliases": [
+                "ANCHORENCODE"
+            ], 
+            "name": "anchorencode"
+        }, 
+        {
+            "aliases": [
+                "CURRENTTIMESTAMP"
+            ], 
+            "case-sensitive": "", 
+            "name": "currenttimestamp"
+        }, 
+        {
+            "aliases": [
+                "LOCALTIMESTAMP"
+            ], 
+            "case-sensitive": "", 
+            "name": "localtimestamp"
+        }, 
+        {
+            "aliases": [
+                "DIRECTIONMARK", 
+                "DIRMARK"
+            ], 
+            "case-sensitive": "", 
+            "name": "directionmark"
+        }, 
+        {
+            "aliases": [
+                "#LANGUAGE:"
+            ], 
+            "name": "language"
+        }, 
+        {
+            "aliases": [
+                "CONTENTLANGUAGE", 
+                "CONTENTLANG"
+            ], 
+            "case-sensitive": "", 
+            "name": "contentlanguage"
+        }, 
+        {
+            "aliases": [
+                "PAGESINNAMESPACE:", 
+                "PAGESINNS:"
+            ], 
+            "case-sensitive": "", 
+            "name": "pagesinnamespace"
+        }, 
+        {
+            "aliases": [
+                "NUMBEROFADMINS"
+            ], 
+            "case-sensitive": "", 
+            "name": "numberofadmins"
+        }, 
+        {
+            "aliases": [
+                "FORMATNUM"
+            ], 
+            "name": "formatnum"
+        }, 
+        {
+            "aliases": [
+                "PADLEFT"
+            ], 
+            "name": "padleft"
+        }, 
+        {
+            "aliases": [
+                "PADRIGHT"
+            ], 
+            "name": "padright"
+        }, 
+        {
+            "aliases": [
+                "special"
+            ], 
+            "name": "special"
+        }, 
+        {
+            "aliases": [
+                "speciale"
+            ], 
+            "name": "speciale"
+        }, 
+        {
+            "aliases": [
+                "DEFAULTSORT:", 
+                "DEFAULTSORTKEY:", 
+                "DEFAULTCATEGORYSORT:"
+            ], 
+            "case-sensitive": "", 
+            "name": "defaultsort"
+        }, 
+        {
+            "aliases": [
+                "FILEPATH:"
+            ], 
+            "name": "filepath"
+        }, 
+        {
+            "aliases": [
+                "tag"
+            ], 
+            "name": "tag"
+        }, 
+        {
+            "aliases": [
+                "__HIDDENCAT__"
+            ], 
+            "case-sensitive": "", 
+            "name": "hiddencat"
+        }, 
+        {
+            "aliases": [
+                "PAGESINCATEGORY", 
+                "PAGESINCAT"
+            ], 
+            "case-sensitive": "", 
+            "name": "pagesincategory"
+        }, 
+        {
+            "aliases": [
+                "PAGESIZE"
+            ], 
+            "case-sensitive": "", 
+            "name": "pagesize"
+        }, 
+        {
+            "aliases": [
+                "__INDEX__"
+            ], 
+            "case-sensitive": "", 
+            "name": "index"
+        }, 
+        {
+            "aliases": [
+                "__NOINDEX__"
+            ], 
+            "case-sensitive": "", 
+            "name": "noindex"
+        }, 
+        {
+            "aliases": [
+                "NUMBERINGROUP", 
+                "NUMINGROUP"
+            ], 
+            "case-sensitive": "", 
+            "name": "numberingroup"
+        }, 
+        {
+            "aliases": [
+                "__STATICREDIRECT__"
+            ], 
+            "case-sensitive": "", 
+            "name": "staticredirect"
+        }, 
+        {
+            "aliases": [
+                "PROTECTIONLEVEL"
+            ], 
+            "case-sensitive": "", 
+            "name": "protectionlevel"
+        }, 
+        {
+            "aliases": [
+                "CASCADINGSOURCES"
+            ], 
+            "case-sensitive": "", 
+            "name": "cascadingsources"
+        }, 
+        {
+            "aliases": [
+                "formatdate", 
+                "dateformat"
+            ], 
+            "name": "formatdate"
+        }, 
+        {
+            "aliases": [
+                "PATH"
+            ], 
+            "name": "url_path"
+        }, 
+        {
+            "aliases": [
+                "WIKI"
+            ], 
+            "name": "url_wiki"
+        }, 
+        {
+            "aliases": [
+                "QUERY"
+            ], 
+            "name": "url_query"
+        }, 
+        {
+            "aliases": [
+                "noerror"
+            ], 
+            "name": "defaultsort_noerror"
+        }, 
+        {
+            "aliases": [
+                "noreplace"
+            ], 
+            "name": "defaultsort_noreplace"
+        }, 
+        {
+            "aliases": [
+                "noerror"
+            ], 
+            "name": "displaytitle_noerror"
+        }, 
+        {
+            "aliases": [
+                "noreplace"
+            ], 
+            "name": "displaytitle_noreplace"
+        }, 
+        {
+            "aliases": [
+                "all"
+            ], 
+            "name": "pagesincategory_all"
+        }, 
+        {
+            "aliases": [
+                "pages"
+            ], 
+            "name": "pagesincategory_pages"
+        }, 
+        {
+            "aliases": [
+                "subcats"
+            ], 
+            "name": "pagesincategory_subcats"
+        }, 
+        {
+            "aliases": [
+                "files"
+            ], 
+            "name": "pagesincategory_files"
+        }
+    ], 
+    "namespacealiases": [
+        {
+            "*": "Image", 
+            "id": 6
+        }, 
+        {
+            "*": "Image talk", 
+            "id": 7
+        }
+    ], 
+    "namespaces": {
+        "-1": {
+            "*": "\u0cb5\u0cbf\u0cb6\u0cc7\u0cb7", 
+            "canonical": "Special", 
+            "case": "first-letter", 
+            "id": -1
+        }, 
+        "-2": {
+            "*": "\u0cae\u0cc0\u0ca1\u0cbf\u0caf", 
+            "canonical": "Media", 
+            "case": "case-sensitive", 
+            "id": -2
+        }, 
+        "0": {
+            "*": "", 
+            "case": "case-sensitive", 
+            "content": "", 
+            "id": 0
+        }, 
+        "1": {
+            "*": "\u0c9a\u0cb0\u0ccd\u0c9a\u0cc6\u0caa\u0cc1\u0c9f", 
+            "canonical": "Talk", 
+            "case": "case-sensitive", 
+            "id": 1, 
+            "subpages": ""
+        }, 
+        "10": {
+            "*": "\u0c9f\u0cc6\u0c82\u0caa\u0ccd\u0cb2\u0cc7\u0c9f\u0cc1", 
+            "canonical": "Template", 
+            "case": "case-sensitive", 
+            "id": 10, 
+            "subpages": ""
+        }, 
+        "11": {
+            "*": "\u0c9f\u0cc6\u0c82\u0caa\u0ccd\u0cb2\u0cc7\u0c9f\u0cc1 \u0c9a\u0cb0\u0ccd\u0c9a\u0cc6", 
+            "canonical": "Template talk", 
+            "case": "case-sensitive", 
+            "id": 11, 
+            "subpages": ""
+        }, 
+        "12": {
+            "*": "\u0cb8\u0cb9\u0cbe\u0caf", 
+            "canonical": "Help", 
+            "case": "case-sensitive", 
+            "id": 12, 
+            "subpages": ""
+        }, 
+        "13": {
+            "*": "\u0cb8\u0cb9\u0cbe\u0caf \u0c9a\u0cb0\u0ccd\u0c9a\u0cc6", 
+            "canonical": "Help talk", 
+            "case": "case-sensitive", 
+            "id": 13, 
+            "subpages": ""
+        }, 
+        "14": {
+            "*": "\u0cb5\u0cb0\u0ccd\u0c97", 
+            "canonical": "Category", 
+            "case": "case-sensitive", 
+            "id": 14
+        }, 
+        "15": {
+            "*": "\u0cb5\u0cb0\u0ccd\u0c97 \u0c9a\u0cb0\u0ccd\u0c9a\u0cc6", 
+            "canonical": "Category talk", 
+            "case": "case-sensitive", 
+            "id": 15, 
+            "subpages": ""
+        }, 
+        "2": {
+            "*": "\u0cb8\u0ca6\u0cb8\u0ccd\u0caf", 
+            "canonical": "User", 
+            "case": "first-letter", 
+            "id": 2, 
+            "subpages": ""
+        }, 
+        "3": {
+            "*": "\u0cb8\u0ca6\u0cb8\u0ccd\u0caf\u0cb0 \u0c9a\u0cb0\u0ccd\u0c9a\u0cc6\u0caa\u0cc1\u0c9f", 
+            "canonical": "User talk", 
+            "case": "first-letter", 
+            "id": 3, 
+            "subpages": ""
+        }, 
+        "4": {
+            "*": "Wiktionary", 
+            "canonical": "Project", 
+            "case": "case-sensitive", 
+            "id": 4, 
+            "subpages": ""
+        }, 
+        "5": {
+            "*": "Wiktionary \u0c9a\u0cb0\u0ccd\u0c9a\u0cc6", 
+            "canonical": "Project talk", 
+            "case": "case-sensitive", 
+            "id": 5, 
+            "subpages": ""
+        }, 
+        "6": {
+            "*": "\u0c9a\u0cbf\u0ca4\u0ccd\u0cb0", 
+            "canonical": "File", 
+            "case": "case-sensitive", 
+            "id": 6
+        }, 
+        "7": {
+            "*": "\u0c9a\u0cbf\u0ca4\u0ccd\u0cb0 \u0c9a\u0cb0\u0ccd\u0c9a\u0cc6\u0caa\u0cc1\u0c9f", 
+            "canonical": "File talk", 
+            "case": "case-sensitive", 
+            "id": 7, 
+            "subpages": ""
+        }, 
+        "8": {
+            "*": "\u0cae\u0cc0\u0ca1\u0cbf\u0caf\u0cb5\u0cbf\u0c95\u0cbf", 
+            "canonical": "MediaWiki", 
+            "case": "first-letter", 
+            "id": 8, 
+            "subpages": ""
+        }, 
+        "828": {
+            "*": "Module", 
+            "canonical": "Module", 
+            "case": "case-sensitive", 
+            "id": 828, 
+            "subpages": ""
+        }, 
+        "829": {
+            "*": "Module talk", 
+            "canonical": "Module talk", 
+            "case": "case-sensitive", 
+            "id": 829, 
+            "subpages": ""
+        }, 
+        "9": {
+            "*": "\u0cae\u0cc0\u0ca1\u0cc0\u0caf\u0cb5\u0cbf\u0c95\u0cbf \u0c9a\u0cb0\u0ccd\u0c9a\u0cc6", 
+            "canonical": "MediaWiki talk", 
+            "case": "first-letter", 
+            "id": 9, 
+            "subpages": ""
+        }
+    }, 
+    "rightsinfo": {
+        "text": "Creative Commons Attribution-Share Alike 3.0", 
+        "url": "//creativecommons.org/licenses/by-sa/3.0/"
+    }
+}

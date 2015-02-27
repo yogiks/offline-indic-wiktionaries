@@ -2,9 +2,9 @@
 Offline Kannada(ಕನ್ನಡ) wiktionary compiled sources from wikimedia XML dumps with aard-tools for aard dictionary.
 
 ## Download
-Generated Aard file(.aar) can be downloaded from this [link](http://goo.gl/8RIy2V). After downloading, open the file in [Aard](http://aarddict.org/). Current stable version of Aard for Ubuntu can be downloaded [here](http://dl.aarddict.org/1dlemAz)
+Generated Aard file(.aar) can be downloaded from this [link](http://goo.gl/8RIy2V). After downloading, open the file in [Aard](http://aarddict.org/). Current stable version of Aard for Ubuntu can be downloaded [here](http://dl.aarddict.org/1dlemAz).
 
-For [Aard 2](http://aarddict.org/), download the dictionary in new slob format from this [link](http://goo.gl/nVweNJ)
+For [Aard 2](http://aarddict.org/), download the dictionary in new slob format from this [link](http://goo.gl/nVweNJ).
 
 ## Produce your own Aard file
 Below are the instructions which can help you to generate your own Kannada wiktionary aard file to use it in Aard from Wikimedia xml dumps. I used Ubuntu 14.04 64-bit to generate [this aard file.](http://goo.gl/8RIy2V)

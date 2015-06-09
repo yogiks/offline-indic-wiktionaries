@@ -7,11 +7,11 @@ Generated Aard file(.aar) can be downloaded from this [link](http://goo.gl/8RIy2
 For [Aard 2](http://aarddict.org/), download the dictionary in new slob format from this [link](http://goo.gl/nVweNJ).
 
 ## Produce your own Aard file
-Below are the instructions which can help you to generate your own Kannada wiktionary aard file to use it in Aard from Wikimedia xml dumps. I used Ubuntu 14.04 64-bit to generate [this aard file.](http://goo.gl/8RIy2V)
+Below are the instructions which can help you to generate your own Kannada wiktionary aard file to use it in Aard from Wikimedia xml dumps. I used Ubuntu 14.04 64-bit.
 
-* Get the latest Kannada wiktionary xml dump from wikimedia [here](https://dumps.wikimedia.org/knwiktionary/latest/). I used the xml dump generated on [31-Dec-2014](https://dumps.wikimedia.org/knwiktionary/20141231/knwiktionary-20141231-pages-articles.xml.bz2) which has all the pages/articles of Kannada wiktionary.
+* Get the latest Kannada wiktionary xml dump [here](https://dumps.wikimedia.org/knwiktionary/latest/knwiktionary-latest-pages-articles.xml.bz2) which has all the pages/articles of [Kannada wiktionary](http://kn.wiktionary.org/).
 ```bash
-wget https://dumps.wikimedia.org/knwiktionary/20141231/knwiktionary-20141231-pages-articles.xml.bz2
+wget https://dumps.wikimedia.org/knwiktionary/latest/knwiktionary-latest-pages-articles.xml.bz2
 ```
 * Install the pre-requisites
 ```bash

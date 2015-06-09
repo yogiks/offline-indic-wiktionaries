@@ -45,7 +45,7 @@ sudo aard-siteinfo kn.wiktionary.org > knwiktionary.json
 ```
 * Build mwlib article database:
 ```bash
-sudo mw-buildcdb --input knwiktionary-20141231-pages-articles.xml.bz2 --output knwiktionary-20141231.cdb
+sudo mw-buildcdb --input knwiktionary-latest-pages-articles.xml.bz2 --output knwiktionary-latest.cdb
 ```
 * Since Kannada wiktionary is being compiled, make sure your system has Kannada(kn) locale:
 ```bash
@@ -53,6 +53,6 @@ sudo locale-gen kn
 ```
 * Compile Kannada dictionary from the wiktionary article database:
 ```bash
-sudo aardc wiki knwiktionary-20141231.cdb knwiktionary.json
+sudo aardc wiki knwiktionary-latest.cdb knwiktionary.json
 ```
 Verify that resulting dictionary has good metadata (description, license, source url), that “View Online” action works by opening it in Aard dictionary. For more detailed instructions on using Aard tools, have a look at [this](http://aarddict.org/aardtools/doc/aardtools.html) awesome documentation in Aard site. I've referred the same to write this.

@@ -1,0 +1,10 @@
+#!/home/ubuntu/aard/env-slob/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'aar2slob==1.0','console_scripts','aar2slob'
+__requires__ = 'aar2slob==1.0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('aar2slob==1.0', 'console_scripts', 'aar2slob')()
+    )

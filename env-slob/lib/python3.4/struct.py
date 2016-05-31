@@ -1,1 +1,1 @@
-/usr/lib/python3.4/struct.py
+/usr/lib/python3.4/struct.py.pys.py�

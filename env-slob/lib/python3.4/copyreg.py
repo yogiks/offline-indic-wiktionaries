@@ -1,1 +1,1 @@
-/usr/lib/python3.4/copyreg.py
+/usr/lib/python3.4/copyreg.pys

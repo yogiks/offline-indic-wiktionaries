@@ -8,6 +8,9 @@ Instructions to install Aard on Ubuntu, Windows and Android can be found on [thi
 
 For [Aard 2 Beta](http://aarddict.org/), download the dictionary in new slob format from this [link](https://github.com/itkach/slob/wiki/Dictionaries#wiktionary).
 
+## Why not Kiwix?
+Kiwix is great as offline wiki reader, but for dictionaries Aard looks neat. Also Kiwix application is too big compared to Aard and even zim files for wiktionaries on Kiwix are bigger in size than Aard dictionaries([in new slob format](https://github.com/itkach/slob/wiki/Dictionaries#wiktionary)). On mobile devices, smaller size apps/files are better.
+
 ## Demo of Indic dictionaries on Ubuntu 14.04
 ![](http://i.imgur.com/zcqdhfc.gif)
 

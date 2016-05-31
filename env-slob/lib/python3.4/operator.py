@@ -1,1 +1,1 @@
-/usr/lib/python3.4/operator.py
+/usr/lib/python3.4/operator.pyypy
